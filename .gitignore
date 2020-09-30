@@ -13,3 +13,7 @@ tokyo.jpg
 mhlw.py
 tokyo.py
 130001_tokyo_covid19_patients.csv
+daily_positive_detail.json
+positive_by_developed.json
+positive_by_diagnosed.json
+positive_rate.json
