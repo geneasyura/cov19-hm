@@ -1,9 +1,3 @@
-cases_total.csv
-death_total.csv
-pcr_case_daily.csv
-pcr_positive_daily.csv
-pcr_tested_daily.csv
-recovery_total.csv
 .ipynb_checkpoints
 .tokens
 mhlw-posis.jpg
@@ -12,8 +6,9 @@ mhlw-total.jpg
 tokyo.jpg
 mhlw.py
 tokyo.py
-130001_tokyo_covid19_patients.csv
 daily_positive_detail.json
 positive_by_developed.json
 positive_by_diagnosed.json
 positive_rate.json
+tokyo-rate.jpg
+tokyo-track.jpg
