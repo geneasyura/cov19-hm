@@ -12,3 +12,11 @@ positive_by_diagnosed.json
 positive_rate.json
 tokyo-rate.jpg
 tokyo-track.jpg
+timesync.bat
+130001_tokyo_covid19_patients.csv
+cases_total.csv
+death_total.csv
+pcr_case_daily.csv
+pcr_positive_daily.csv
+pcr_tested_daily.csv
+recovery_total.csv
