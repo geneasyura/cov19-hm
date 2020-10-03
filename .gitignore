@@ -20,3 +20,6 @@ pcr_case_daily.csv
 pcr_positive_daily.csv
 pcr_tested_daily.csv
 recovery_total.csv
+__pycache__
+effective_reproduction_number.csv
+ogiwara-ern.jpg
