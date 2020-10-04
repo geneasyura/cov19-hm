@@ -57,8 +57,7 @@ def show_and_clear(fig, filename):
     """ グラフを表示またはファイルに保存する """
     if "ipy" in sys.argv[0]:
         plt.show()
-    else:
-        fig.savefig(filename)
+    fig.savefig(filename)
     fig.clear()
 
 

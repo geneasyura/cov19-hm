@@ -23,3 +23,12 @@ recovery_total.csv
 __pycache__
 effective_reproduction_number.csv
 ogiwara-ern.jpg
+prefectures.csv
+ern-1w_poss-zoom.jpg
+ern-1w_poss.jpg
+ern-2w_poss-zoom.jpg
+ern-2w_poss.jpg
+japan-1w.jpg
+japan-2w.jpg
+japan-erns.jpg
+prefectures.py
