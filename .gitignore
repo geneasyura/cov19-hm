@@ -1,8 +1,5 @@
 .ipynb_checkpoints
 .tokens
-mhlw-posis.jpg
-mhlw-tests.jpg
-mhlw-total.jpg
 tokyo.jpg
 mhlw.py
 tokyo.py
@@ -10,8 +7,6 @@ daily_positive_detail.json
 positive_by_developed.json
 positive_by_diagnosed.json
 positive_rate.json
-tokyo-rate.jpg
-tokyo-track.jpg
 timesync.bat
 130001_tokyo_covid19_patients.csv
 cases_total.csv
@@ -22,13 +17,5 @@ pcr_tested_daily.csv
 recovery_total.csv
 __pycache__
 effective_reproduction_number.csv
-ogiwara-ern.jpg
 prefectures.csv
-ern-1w_poss-zoom.jpg
-ern-1w_poss.jpg
-ern-2w_poss-zoom.jpg
-ern-2w_poss.jpg
-japan-1w.jpg
-japan-2w.jpg
-japan-erns.jpg
 prefectures.py
