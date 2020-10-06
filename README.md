@@ -1,7 +1,8 @@
 ## COVID-19 Visualization and Estimation
 
-- [東京](tokyo.ipynb)
-- [全国](mhlw.ipynb)
+- [東京予測](images/tokyo.md)
+- [全国予測](images/mhlw.md)
+- [拡大状況](images/pref.md)
 
 ## 参考資料
 
