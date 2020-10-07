@@ -58,6 +58,7 @@ def show_and_clear(fig, filename):
     if "ipy" in sys.argv[0]:
         plt.show()
     fig.savefig(filename)
+    fig.savefig(filename.replace(".jpg", ".svg"), format="svg", dpi=120)
     fig.clear()
 
 
