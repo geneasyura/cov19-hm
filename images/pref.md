@@ -23,6 +23,9 @@
 ### 都道府県別 直近2週間 罹患率
 ![直近2週間罹患率](https://github.com/geneasyura/cov19-hm/blob/master/images/japan-2w.jpg?raw=true)
 
+### 都道府県別 全期間 罹患率
+![全期間罹患率](https://github.com/geneasyura/cov19-hm/blob/master/images/japan-all.jpg?raw=true)
+
 ## 陽性率
 
 ### 都道府県別 直近1週間 陽性率
