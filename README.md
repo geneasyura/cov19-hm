@@ -13,6 +13,7 @@
 - [東洋経済 荻原様のGithub](https://github.com/kaz-ogiwara/covid19/)
 - [北大 西浦教授Github](https://github.com/contactmodel/COVID19-Japan-Reff)
 - 政府統計総合窓口 [e-Stat](https://www.e-stat.go.jp/) にある「統計でみる市区町村のすがた2020」から「A 人口・世帯 2020年6月22日に公開された Excel」を加工して作成。
+- 調憲, 播本憲史, 小山洋. 『都道府県ごとの新型コロナウイルス（COVID-19）累積感染割合と人口密集度の指標との関連に関する研究』. 北関東医学. Vol. 70, No. 3, pp. 235-242, 2020. https://doi.org/10.2974/kmj.70.235
 
 ## 謝辞・Copyright・出典
 
