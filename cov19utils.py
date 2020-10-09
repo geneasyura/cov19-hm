@@ -143,7 +143,7 @@ def tweet_with_image(twtr, filename, msg):
     print(msg)
     with open(filename, "rb") as imagefile:
         imagedata = imagefile.read()
-        params = {"media[]": imagedata, "status": msg}
+        params = {"media[]": imagedata, "status": msg + " #COVID19"}
         req = twtr.statuses.update_with_media(**params)
         print(req['created_at'])
     print("Tweeted.")
