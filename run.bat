@@ -7,3 +7,5 @@ python mhlw.py
 jupyter nbconvert prefectures.ipynb --to python
 python prefectures.py
 
+jupyter nbconvert hokkaido.ipynb --to python
+python hokkaido.py

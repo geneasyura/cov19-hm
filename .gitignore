@@ -22,3 +22,9 @@ prefectures.py
 rm.bat
 svglib.jpg
 svglib.tmp
+010006_hokkaido_covid19_patients.csv
+covid19_data.csv
+patients.csv
+patients_age_sex.csv
+svglib.svg
+hokkaido.py

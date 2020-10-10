@@ -8,6 +8,9 @@
   </g>
     <rect x="0" y="0" width="600" height="528" fill="#d0d0e0" />
   <g pointer-events="fill" stroke="black" stroke-width="0.4" stroke-linejoin="round">
+    <a xlink:href="http://ja.wikipedia.org/wiki/青森県">
+      <path d="M203 532l4-15 2-6v-2l1-3-2 1-2 2-5 3h-10l-8-7-2-3-1-1-1-1-3-2-7-2-4-4h-1h-2v5l-2 2-3 5-1 2-1 4-1 4-1 1-1 2v2l-1 2-1 3 1 1-1 2v1v1l-1 1v1v1zM164 532l3-2 4 2zM173 532l10-6v-3l-1 3 2-4 7 10zM136 532l-2-5-1-1-3-1-2 1-6 4h-1l-4-6-3-2h-2v1l-1 2v2v1v2v2z" clip-path="url(#window0)" fill="#c00" />
+    </a>  
     <a xlink:href="http://ja.wikipedia.org/wiki/石狩振興局">
       <path d="M192 348l-1 8v3l6-3 5 4h3l5-4v-5l6 2 7 1 3-3 12-2 2-2 4-10 5-3-8-3-1-1-8 7-1-4-5-7-1-3-1-2 2-3v-3l7-5-4-4 3-4v-11l-3 1-1-7v-5l6-6 5-3v-1l-4-3-6-10h-1l-6-9-2-3-7-6h-5l-1-1v4v1l1 2 3 11-2 5v1l-1 2 1 2 2 4 3 9-5 13-8 10-3 3-5 2-4 6-6-4-3 7-4 4v4v1l4 3-1 8 4 1v6z" clip-path="url(#window0)" fill="#c01" />
     </a>
