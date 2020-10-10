@@ -5,9 +5,11 @@ import chardet
 import codecs
 from datetime import datetime as dt
 from datetime import timedelta as td
+from japanmap import picture
 import json
 import matplotlib.pyplot as plt
 import matplotlib.dates as dates
+import matplotlib.cm as cm
 import numpy as np
 import os
 from sklearn.gaussian_process import GaussianProcessRegressor
@@ -178,4 +180,88 @@ def download_if_needed(base_url, filename):
     if not os.path.exists(filename):
         print("Downloading {} ...".format(filename))
         urlretrieve(base_url + filename, filename)
+
+
+def get_populations():
+    """ 都道府県の人口情報を取得する """
+    populations = {}
+    all_population = 0
+    with codecs.open("population.txt", encoding='utf-8') as f:
+        l = f.readline()
+        while l:
+            elems = l.split(',')
+            populations[elems[3]] = dict(
+                region = int(elems[0]), 
+                code   = int(elems[1]),
+                ja     = elems[2],
+                en     = elems[3],
+                total = int(elems[4])
+            )
+            all_population += int(elems[4])
+            l = f.readline().replace("\r\n", "").rstrip()
+    print("All population in Japan: {}".format(all_population))
+    return populations
+
+
+def get_os_idx_of_arr(arr, delta_days):
+    """ データ最終更新日Indexを取得する """
+    os_idx = -1
+    for i in np.arange(delta_days):
+        if np.sum(arr[-i -1, 1:])  > 0:
+            os_idx = -i -1
+            print("Data offset index: {}".format(os_idx))
+            break
+    return os_idx
+
+
+def dump_val_in_arr(populations, arr, prefix, dec_num=1):
+    """ 各都道府県の数値を表示する """
+    print("{}: ".format(prefix), end="")
+    for k, v in populations.items():
+        strfmt = "{}={:." + str(dec_num) + "f} "
+        print(strfmt.format(v['ja'], np.round(arr[v['code']], dec_num)), end="")
+    print("")
+
+
+def calc_last1w2w_dif(arr, delta_days):
+    """ 直近１、2週間差分を取得する """
+    idx = get_os_idx_of_arr(arr, delta_days)
+    latest_arr = arr[idx] # 最新
+    last1w_arr = arr[idx -  7] # 1週間前
+    last2w_arr = arr[idx - 14] # 2週間前
+    diff1w_arr = latest_arr - last1w_arr # 最新と1週間前の差分
+    diff2w_arr = latest_arr - last2w_arr # 最新と2週間前の差分
+    return diff1w_arr, diff2w_arr
+
+
+def create_basic_scatter_figure(xlabel, ylabel):
+    """ 基本散布図テンプレートを作成する """
+    plt.close()
+    plt.style.use("dark_background")
+    fig = plt.figure(figsize=(9, 9))
+    ax = fig.add_subplot(111)
+    plt.xlabel(xlabel, fontname=FONT_NAME)
+    plt.ylabel(ylabel, fontname=FONT_NAME)
+    plt.grid(True)
+    #plt.subplots_adjust(left=0.07, right=0.97, bottom=0.07, top=0.97)
+    return fig, ax
+
+
+def mak_japan_heatmap(filename, title, npa1d, populations):
+    """ 都道府県別ヒートマップを表示する """
+    plt.close()
+    plt.style.use("dark_background")
+    plt.subplots_adjust(left=0.07, right=0.99, bottom=0.07, top=0.95)
+    plt.title(title, fontname=FONT_NAME)
+    plt.rcParams['figure.figsize'] = 6, 6
+    cmap = plt.get_cmap("rainbow")
+    norm = plt.Normalize(vmin=np.min(npa1d[1:]), vmax=np.max(npa1d[1:]))
+    fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
+    plt.colorbar(cm.ScalarMappable(norm, cmap))
+    map_cols = {}
+    for k, v in populations.items():
+        map_cols[v['ja']] = fcol(npa1d[v['code']])
+    pict = picture(map_cols)
+    plt.imshow(pict)
+    plt.savefig(filename)
 
