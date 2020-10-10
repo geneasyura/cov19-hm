@@ -2,6 +2,7 @@
 
 - [東京予測](images/tokyo.md)
 - [全国予測](images/mhlw.md)
+- [北海道予測](images/hokkaido.md)
 - [拡大状況](images/pref.md)
 
 ## 参考資料
