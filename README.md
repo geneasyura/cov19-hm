@@ -1,9 +1,9 @@
 ## COVID-19 Visualization and Estimation
 
-- [東京予測](images/tokyo.md)
-- [全国予測](images/mhlw.md)
-- [北海道予測](images/hokkaido.md)
-- [拡大状況](images/pref.md)
+- [東京予測](https://geneasyura.github.io/cov19-hm//tokyo.md)
+- [全国予測](https://geneasyura.github.io/cov19-hm//mhlw.md)
+- [北海道予測](https://geneasyura.github.io/cov19-hm//hokkaido.md)
+- [拡大状況](https://geneasyura.github.io/cov19-hm//pref.md)
 
 ## インタラクティブ版（開発中）
 

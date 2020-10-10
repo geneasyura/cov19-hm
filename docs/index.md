@@ -1,9 +1,9 @@
 ## COVID-19 Visualization and Estimation
 
-- [東京予測](../images/tokyo.md)
-- [全国予測](../images/mhlw.md)
-- [北海道予測](../images/hokkaido.md)
-- [拡大状況](../images/pref.md)
+- [東京予測](tokyo.md)
+- [全国予測](mhlw.md)
+- [北海道予測](hokkaido.md)
+- [拡大状況](pref.md)
 
 ## 参考資料
 
