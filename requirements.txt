@@ -6,3 +6,5 @@ scikit-learn
 twitter
 pyyaml
 svglib
+plotly
+plotly.express
