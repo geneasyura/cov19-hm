@@ -12,6 +12,12 @@ import matplotlib.dates as dates
 import matplotlib.cm as cm
 import numpy as np
 import os
+import plotly
+import plotly.express as px
+import plotly.tools as tls
+import plotly.graph_objects as go
+import plotly.io as pio
+import plotly.offline as offline
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import WhiteKernel, ExpSineSquared, RBF, ConstantKernel
 import sys
@@ -53,6 +59,7 @@ def create_basic_plot_figure():
     plt.grid(True)
     plt.xticks(rotation=90, fontsize=10)
     return fig, ax
+
 
 
 def show_and_clear(fig, filename):
@@ -141,6 +148,8 @@ def tweet_with_image(twtr, filename, msg):
     """ tweet する """
     if "ipy" in sys.argv[0]:
         return
+
+    return
 
     print(msg)
     with open(filename, "rb") as imagefile:
@@ -264,4 +273,21 @@ def mak_japan_heatmap(filename, title, npa1d, populations):
     pict = picture(map_cols)
     plt.imshow(pict)
     plt.savefig(filename)
+
+
+def show_and_save_plotly(fig, filename, js='directory'):
+    """ plotly graph をファイルに保存する """
+    fig.update_layout(template='plotly_dark')
+    if "ipy" in sys.argv[0]:
+        offline.iplot(fig)
+    jpgname = 'docs/images/{}'.format(filename)
+    pio.write_image(
+        fig, file=jpgname,
+        format='jpeg', engine="kaleido")
+    print("wrote to {}".format(jpgname))
+    htmlname = 'docs/_includes/{}'.format(filename.replace("jpg", "html"))
+    pio.write_html(
+        fig, file=htmlname,
+        include_plotlyjs=js, auto_play=False, full_html=False)
+    print("wrote to {}".format(htmlname))
 

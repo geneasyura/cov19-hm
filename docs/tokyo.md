@@ -1,13 +1,13 @@
+{% include plotly.html %}
+
 ### 東京都 新型コロナ予測 新規感染者数
 
-![新規感染者数](/images/tokyo.jpg)
-
+{% include tokyo.html %}
 
 ### 東京都 新型コロナ予測 検査人数/陽性率
 
-![検査人数-陽性率](/images/tokyo-rate.jpg)
-
+{% include tokyo-rate.html %}
 
 ### 東京都 新型コロナ予測 経路不明率
 
-![経路不明率](/images/tokyo-track.jpg)
+{% include tokyo-track.html %}
