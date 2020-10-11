@@ -149,7 +149,7 @@ def tweet_with_image(twtr, filename, msg):
     if "ipy" in sys.argv[0]:
         return
 
-    return
+    #return
 
     print(msg)
     with open(filename, "rb") as imagefile:
