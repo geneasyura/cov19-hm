@@ -25,3 +25,6 @@
 - MIT: Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.
 - [総務省統計局「統計でみる市区町村のすがた2020」](https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001141146&cycle=0&year=20200&month=0&tclass1=000001141147)
 - [CC-BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.ja): 北海道の総合振興局別地図は[Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Subprefectures_of_Hokkaido.svg) のデータを改変。
+
+## テスト
+- [plotly.js](test.md)
