@@ -256,23 +256,23 @@ def create_basic_scatter_figure(xlabel, ylabel):
     return fig, ax
 
 
-def mak_japan_heatmap(filename, title, npa1d, populations):
-    """ 都道府県別ヒートマップを表示する """
-    plt.close()
-    plt.style.use("dark_background")
-    plt.subplots_adjust(left=0.07, right=0.99, bottom=0.07, top=0.95)
-    plt.title(title, fontname=FONT_NAME)
-    plt.rcParams['figure.figsize'] = 6, 6
-    cmap = plt.get_cmap("rainbow")
-    norm = plt.Normalize(vmin=np.min(npa1d[1:]), vmax=np.max(npa1d[1:]))
-    fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
-    plt.colorbar(cm.ScalarMappable(norm, cmap))
-    map_cols = {}
-    for k, v in populations.items():
-        map_cols[v['ja']] = fcol(npa1d[v['code']])
-    pict = picture(map_cols)
-    plt.imshow(pict)
-    plt.savefig(filename)
+#def mak_japan_heatmap(filename, title, npa1d, populations):
+#    """ 都道府県別ヒートマップを表示する """
+#    plt.close()
+#    plt.style.use("dark_background")
+#    plt.subplots_adjust(left=0.07, right=0.99, bottom=0.07, top=0.95)
+#    plt.title(title, fontname=FONT_NAME)
+#    plt.rcParams['figure.figsize'] = 6, 6
+#    cmap = plt.get_cmap("rainbow")
+#    norm = plt.Normalize(vmin=np.min(npa1d[1:]), vmax=np.max(npa1d[1:]))
+#    fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
+#    plt.colorbar(cm.ScalarMappable(norm, cmap))
+#    map_cols = {}
+#    for k, v in populations.items():
+#        map_cols[v['ja']] = fcol(npa1d[v['code']])
+#    pict = picture(map_cols)
+#    plt.imshow(pict)
+#    plt.savefig(filename)
 
 
 def show_and_save_plotly(fig, filename, js='directory'):

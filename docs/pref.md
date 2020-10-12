@@ -1,36 +1,28 @@
 ## 直近1週間足
-
+{% include plotly.html %}
 ### 全国 新型コロナ 都道府県別 感染拡大傾向
-![都道府県別拡大傾向](/images/ern-1w_poss.jpg)
+{% include ern-1w_poss.html %}
 ### 全国 新型コロナ 都道府県別 感染拡大傾向
-![都道府県別拡大傾向(ズーム表示)](/images/ern-1w_poss-zoom.jpg)
+{% include ern-1w_poss-zoom.html %}
 
 ## 直近2週間足
-
 ### 全国 新型コロナ 都道府県別 感染拡大傾向
-![都道府県別拡大傾向](/images/ern-2w_poss.jpg)
+{% include ern-2w_poss.html %}
 ### 全国 新型コロナ 都道府県別 感染拡大傾向
-![都道府県別拡大傾向(ズーム表示)](/images/ern-2w_poss-zoom.jpg)
-
+{% include ern-2w_poss-zoom.html %}
 ## 都道府県別 実行再生産数
-![実行再生産数](/images/japan-erns.jpg)
+{% include japan-erns.html %}
 
 ## 人口比 罹患率
-
 ### 都道府県別 直近1週間 罹患率
-![直近1週間罹患率](/images/japan-1w.jpg)
-
+{% include japan-1w.html %}
 ### 都道府県別 直近2週間 罹患率
-![直近2週間罹患率](/images/japan-2w.jpg)
-
+{% include japan-2w.html %}
 ### 都道府県別 全期間 罹患率
-![全期間罹患率](/images/japan-all.jpg)
+{% include japan-all.html %}
 
 ## 陽性率
-
 ### 都道府県別 直近1週間 陽性率
-![直近1週間陽性率](/images/japan-rate1w.jpg)
-
+{% include japan-rate1w.html %}
 ### 都道府県別 直近2週間 陽性率
-![直近2週間陽性率](/images/japan-rate2w.jpg)
-
+{% include japan-rate2w.html %}

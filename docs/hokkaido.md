@@ -7,14 +7,13 @@
 {% include hokkaido-rate.html %}
 
 ### 北海道 新型コロナ 振興局別 罹患率[全期間] 
-![振興局別 罹患率(全期間)](/images/hokkaido-all.jpg)
+{% include hokkaido-all.html %}
 
 ### 北海道 新型コロナ 振興局別 陽性者数(全期間)
-![振興局別 陽性者数(全期間)](/images/hokkaido-all-n.jpg)
+{% include hokkaido-all-n.html %}
 
 ### 北海道 新型コロナ 振興局別 実効再生産数(簡易計算)
-![振興局別 実効再生産数(簡易計算)](/images/hokkaido-Rt.jpg)
+{% include hokkaido-Rt.html %}
 
 ### 北海道 新型コロナ 振興局別 直近2週間罹患率
-![振興局別 直近2週間罹患率](/images/hokkaido-2w.jpg)
-
+{% include hokkaido-2w.html %}
