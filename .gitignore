@@ -8,6 +8,7 @@ positive_by_developed.json
 positive_by_diagnosed.json
 positive_rate.json
 timesync.bat
+push.bat
 130001_tokyo_covid19_patients.csv
 cases_total.csv
 death_total.csv
