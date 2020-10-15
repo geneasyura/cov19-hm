@@ -275,10 +275,10 @@ def create_basic_scatter_figure(xlabel, ylabel):
 #    plt.savefig(filename)
 
 
-def show_and_save_plotly(fig, filename, js='directory'):
+def show_and_save_plotly(fig, filename, js='directory', show=True):
     """ plotly graph をファイルに保存する """
     fig.update_layout(template='plotly_dark')
-    if "ipy" in sys.argv[0]:
+    if "ipy" in sys.argv[0] and show:
         offline.iplot(fig)
     jpgname = 'docs/images/{}'.format(filename)
     pio.write_image(
