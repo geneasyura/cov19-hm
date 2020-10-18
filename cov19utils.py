@@ -37,9 +37,15 @@ def json2nparr(keys, filename):
     with codecs.open(filename, encoding='utf-8') as f:
         jsn = json.load(f)
         print("{} 更新日: {}".format(filename, jsn['date']))
-        npa = np.asarray(jsn['data'])
+        if "patient" not in filename:
+            npa = np.asarray(jsn['data'])
+        else:
+            npa = np.asarray(jsn['datasets']['data'])
         for l in npa:
-            elems = [dt.strptime(l["diagnosed_date"], "%Y-%m-%d")]
+            if "patient" not in filename:
+                elems = [dt.strptime(l["diagnosed_date"], "%Y-%m-%d")]
+            else:
+                elems = [0]
             for k in keys:
                 if l[k] is None:
                     elems.append(0)

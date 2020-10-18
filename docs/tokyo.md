@@ -11,3 +11,7 @@
 ### 東京都 新型コロナ予測 経路不明率
 
 {% include tokyo-track.html %}
+
+### 東京都 新型コロナ 全期間 罹患率 
+
+{% include tokyo-hm.html %}
