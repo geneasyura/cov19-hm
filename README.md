@@ -5,10 +5,6 @@
 - [北海道予測](https://geneasyura.github.io/cov19-hm/hokkaido.html)
 - [拡大状況](https://geneasyura.github.io/cov19-hm/pref.html)
 
-## インタラクティブ版（開発中）
-
-- https://geneasyura.github.io/cov19-hm/
-
 ## 参考資料
 
 - [厚生労働省オープンデータ](https://www.mhlw.go.jp/stf/covid-19/open-data.html)
