@@ -8,6 +8,12 @@
 ## 検査人数/陽性率
 {% include hokkaido-rate.html %}
 
+## 検査人数/経路不明率
+
+※経路不明率は簡易計算式「非濃厚接触者 / (濃厚接触者 + 非濃厚接触者)」を使用して算出。
+
+{% include hokkaido-unknown.html %}
+
 ## 振興局別 罹患率[全期間] 
 {% include hokkaido-all.html %}
 
