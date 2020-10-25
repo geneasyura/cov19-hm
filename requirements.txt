@@ -1,5 +1,7 @@
 chardet
+cssselect
 kaleido
+lxml
 matplotlib
 numpy
 pandas
