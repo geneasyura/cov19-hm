@@ -20,7 +20,7 @@ sub_prefs = {
      0: dict(name="非公表"    , code="00", suffix="その他",     total=9999999),
      1: dict(name="石狩"      , code="01", suffix="振興局"    , total=2385306),
      2: dict(name="渡島"      , code="02", suffix="総合振興局", total= 385954),
-     3: dict(name="桧山"      , code="03", suffix="振興局"    , total=  34589),
+     3: dict(name="檜山"      , code="03", suffix="振興局"    , total=  34589),
      4: dict(name="後志"      , code="04", suffix="総合振興局", total= 202399),
      5: dict(name="空知"      , code="05", suffix="総合振興局", total= 284613),
      6: dict(name="上川"      , code="06", suffix="総合振興局", total= 486430),
