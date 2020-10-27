@@ -9,3 +9,6 @@ python prefectures.py
 
 jupyter nbconvert hokkaido.ipynb --to python
 python hokkaido.py
+
+jupyter nbconvert heatmap.ipynb --to python
+python heatmap.py

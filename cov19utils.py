@@ -190,11 +190,14 @@ def get_gpr_predict(x, y, x_pred, rbf=80, c=10, w=200):
     return y_pred
 
 
-def download_if_needed(base_url, filename):
+def download_if_needed(base_url, filename, savename=None):
     """ ファイルが存在しなければダウンロードする """
-    if not os.path.exists(filename):
+    if savename is None:
+        savename = filename
+    if not os.path.exists(savename):
         print("Downloading {} ...".format(filename))
-        urlretrieve(base_url + filename, filename)
+        urlretrieve(base_url + filename, savename)
+        print("Saved as {}.".format(savename))
 
 
 def get_populations():
