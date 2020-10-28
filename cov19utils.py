@@ -127,7 +127,7 @@ def csv2array(arr, k, filename, idx, dt_os=DT_OFFSET):
         while l:
             l = f.readline().replace("\r\n", "")
             elems = l.split(',')
-            if len(elems) > 1:
+            if len(elems) > 1 and len(elems[0]) > 0:
                 delta = dt.strptime(elems.pop(0), "%Y/%m/%d") - from_date
                 cnt = 0
                 for elem in elems:

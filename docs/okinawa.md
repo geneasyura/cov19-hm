@@ -3,3 +3,6 @@
 
 ## 全期間 罹患率 
 {% include okinawa-hm.html %}
+
+## 直近1週間 罹患率 
+{% include okinawa-hm-1w.html %}
