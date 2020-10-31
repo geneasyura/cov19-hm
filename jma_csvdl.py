@@ -25,7 +25,7 @@ def get_jma_payload(city_code):
         stationNumList = '["{}"]'.format(city_code),
         aggrgPeriod = 1,
         # 系列は温湿度固定
-        elementNumList = '[["201",""],["605",""]]',
+        elementNumList = '[["201",""],["605",""],["604",""],["601",""]]',
         interAnnualFlag = 1,
         # COVID-19 感染確認期からのデータと取得する
         ymdList = '["{}","{}","{}","{}","{}","{}"]'.format(
@@ -79,12 +79,20 @@ def parse_jma_csv(filename):
         while l:
             l = f.readline().replace("\r\n", "")
             arr = l.split(',')
-            if len(arr) == 7:
+            if len(arr) == 13:
                 ts = datetime.strptime(arr[0], "%Y/%m/%d")
+                temp = float(arr[ 1])
+                rh = float(arr[ 4])
+                vp = float(arr[ 7])
+                ap = float(arr[10])
+                ah = 18.0 * ((100.0 * vp) / (8.31447 * (273.15 + temp)))
                 weather_info.append([
                     ts,
-                    float(arr[1]), # average temperature C
-                    float(arr[4]) # average humidity %
+                    temp,  # 平均気温[℃]
+                    rh,    # 平均湿度[%RH]
+                    vp,    # 平均蒸気圧 [hPa]
+                    ap,    # 平均現地気圧
+                    ah     # 容積絶対湿度 [g/㎥]
                 ])
         pass
     return weather_info

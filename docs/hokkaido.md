@@ -4,9 +4,13 @@
 
 ## 新規感染者数
 
+### 気温と新規感染者数
 ※気象業務法第13～24条に接触するため、予報を含まない前日までの気温データのみを表示（気象データに関する予報値を含まない）。
 
 {% include hokkaido.html %}
+
+### 絶対湿度と新規感染者数
+{% include hokkaido-ah.html %}
 
 ## 検査人数/陽性率
 {% include hokkaido-rate.html %}
