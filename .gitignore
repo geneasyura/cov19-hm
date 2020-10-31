@@ -47,3 +47,5 @@ nagoya.prev.tmp
 okinawa.prev.tmp
 osaka.prev.tmp
 all.bat
+all.log
+prev.sh*
