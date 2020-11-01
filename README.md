@@ -5,6 +5,7 @@
 - [拡大状況](https://geneasyura.github.io/cov19-hm/pref.html)
 - [北海道](https://geneasyura.github.io/cov19-hm/hokkaido.html)
 - [埼玉県](https://geneasyura.github.io/cov19-hm/saitama.html)
+- [神奈川県](https://geneasyura.github.io/cov19-hm/kanagawa.html)
 - [大阪府](https://geneasyura.github.io/cov19-hm/osaka.html)
 - [愛知県](https://geneasyura.github.io/cov19-hm/nagoya.html)
 - [福岡県](https://geneasyura.github.io/cov19-hm/fukuoka.html)

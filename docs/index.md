@@ -5,6 +5,7 @@
 - [北海道予測](hokkaido.md)
 - [拡大状況](pref.md)
 - [埼玉県](saitama.md)
+- [神奈川県](kanagawa.md)
 - [大阪府](osaka.md)
 - [愛知県](nagoya.md)
 - [福岡県](fukuoka.md)
