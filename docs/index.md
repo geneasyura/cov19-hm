@@ -4,6 +4,7 @@
 - [全国予測](mhlw.md)
 - [北海道予測](hokkaido.md)
 - [拡大状況](pref.md)
+- [埼玉県](saitama.md)
 - [大阪府](osaka.md)
 - [愛知県](nagoya.md)
 - [福岡県](fukuoka.md)
@@ -25,6 +26,8 @@
 - [沖縄県 新型コロナウイルス感染症対策サイト](https://github.com/Code-for-OKINAWA/covid19)
 - [農業環境変動研究センター H27国勢調査（小地域）境界データ](https://niaesvic.dc.affrc.go.jp/ja/dataset/h27-census-polygon)
 - [国土交通省 国土数値情報 行政区域データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_4.html)
+- [埼玉県 新型コロナウイルス感染症対策サイト](https://github.com/geneasyura/cov19-hm)
+- [神奈川県オープンデータ](http://www.pref.kanagawa.jp/docs/t3u/dst/s0060925.html)
 
 ## 謝辞・Copyright・出典
 

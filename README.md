@@ -2,8 +2,9 @@
 
 - [東京予測](https://geneasyura.github.io/cov19-hm/tokyo.html)
 - [全国予測](https://geneasyura.github.io/cov19-hm/mhlw.html)
-- [北海道予測](https://geneasyura.github.io/cov19-hm/hokkaido.html)
 - [拡大状況](https://geneasyura.github.io/cov19-hm/pref.html)
+- [北海道](https://geneasyura.github.io/cov19-hm/hokkaido.html)
+- [埼玉県](https://geneasyura.github.io/cov19-hm/saitama.html)
 - [大阪府](https://geneasyura.github.io/cov19-hm/osaka.html)
 - [愛知県](https://geneasyura.github.io/cov19-hm/nagoya.html)
 - [福岡県](https://geneasyura.github.io/cov19-hm/fukuoka.html)
@@ -25,6 +26,8 @@
 - [沖縄県 新型コロナウイルス感染症対策サイト](https://github.com/Code-for-OKINAWA/covid19)
 - [農業環境変動研究センター H27国勢調査（小地域）境界データ](https://niaesvic.dc.affrc.go.jp/ja/dataset/h27-census-polygon)
 - [国土交通省 国土数値情報 行政区域データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_4.html)
+- [埼玉県 新型コロナウイルス感染症対策サイト](https://github.com/geneasyura/cov19-hm)
+- [神奈川県オープンデータ](http://www.pref.kanagawa.jp/docs/t3u/dst/s0060925.html)
 
 ## 謝辞・Copyright・出典
 
