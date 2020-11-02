@@ -2,8 +2,9 @@
 
 - [東京予測](tokyo.md)
 - [全国予測](mhlw.md)
-- [北海道予測](hokkaido.md)
 - [拡大状況](pref.md)
+- [北海道](hokkaido.md)
+- [青森県](aomori.md)
 - [埼玉県](saitama.md)
 - [神奈川県](kanagawa.md)
 - [大阪府](osaka.md)
@@ -29,6 +30,8 @@
 - [国土交通省 国土数値情報 行政区域データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_4.html)
 - [埼玉県 新型コロナウイルス感染症対策サイト](https://github.com/geneasyura/cov19-hm)
 - [神奈川県オープンデータ](http://www.pref.kanagawa.jp/docs/t3u/dst/s0060925.html)
+- [青森県内における新型コロナウイルス感染症の感染動向データ](https://opendata.pref.aomori.lg.jp/dataset/1531.html)
+
 
 ## 謝辞・Copyright・出典
 

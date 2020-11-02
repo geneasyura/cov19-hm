@@ -4,6 +4,7 @@
 - [全国予測](https://geneasyura.github.io/cov19-hm/mhlw.html)
 - [拡大状況](https://geneasyura.github.io/cov19-hm/pref.html)
 - [北海道](https://geneasyura.github.io/cov19-hm/hokkaido.html)
+- [青森県](https://geneasyura.github.io/cov19-hm/aomori.html)
 - [埼玉県](https://geneasyura.github.io/cov19-hm/saitama.html)
 - [神奈川県](https://geneasyura.github.io/cov19-hm/kanagawa.html)
 - [大阪府](https://geneasyura.github.io/cov19-hm/osaka.html)
@@ -29,6 +30,7 @@
 - [国土交通省 国土数値情報 行政区域データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_4.html)
 - [埼玉県 新型コロナウイルス感染症対策サイト](https://github.com/geneasyura/cov19-hm)
 - [神奈川県オープンデータ](http://www.pref.kanagawa.jp/docs/t3u/dst/s0060925.html)
+- [青森県内における新型コロナウイルス感染症の感染動向データ](https://opendata.pref.aomori.lg.jp/dataset/1531.html)
 
 ## 謝辞・Copyright・出典
 
