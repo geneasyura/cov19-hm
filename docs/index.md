@@ -4,6 +4,7 @@
 - [全国予測](mhlw.md)
 - [拡大状況](pref.md)
 - [北海道](hokkaido.md)
+- [北海道発生マップ](hokkaido-map.md)
 - [青森県](aomori.md)
 - [埼玉県](saitama.md)
 - [神奈川県](kanagawa.md)
