@@ -1,4 +1,4 @@
-# 北海道 新型コロナ 発生マップ
+# 北海道 新型コロナ クラスタ発生マップ
 {% include plotly.html %}
 
 ## 全期間
@@ -7,6 +7,30 @@
 * 場所が公開されていない施設は駅周辺のランダムな地点を選択しています。
 * 市や道の発表資料ベースで個人で集計したものであるため、値は不正確（概算値）です。
 * 一部省略している事例もあります。
+
+### 地域別
+
+{% include hokkaido-cluster-state.html %}
+
+### 施設別
+
+{% include hokkaido-cluster-category.html %}
+
+### 室内発生率(憶測)
+
+{% include hokkaido-cluster-indoor.html %}
+
+### 会話発生率(憶測)
+
+{% include hokkaido-cluster-voice.html %}
+
+### 大声発生率(推測)
+
+{% include hokkaido-cluster-loud.html %}
+
+### 医療機関率(概算)
+
+{% include hokkaido-cluster-hosp.html %}
 
 ## 各施設における感染対策改善案
 
@@ -47,6 +71,7 @@
 ### 6 小学校 / 7 中学校 / 8 高校 / 9 大学 / 10 専門学校 / 11 教育機関
 
 * 校内からウィルスが自然発生することはない。同居親族からの感染や市中感染により感染した児童・生徒が登校することでクラスターになる可能性がある。プール式の定期的なPRC検査を検討する。
+* 少人数学級の実現。教室が空いていれば、Zoom等で教室間をつなぎ、密を避ける。
 
 ### 12 自衛隊
 

@@ -12,6 +12,9 @@
 ### 絶対湿度と新規感染者数
 {% include hokkaido-ah.html %}
 
+### 累乗近似
+{% include hokkaido-fit.html %}
+
 ## 検査人数/陽性率
 {% include hokkaido-rate.html %}
 
