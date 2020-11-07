@@ -63,3 +63,4 @@ aomori.csv
 aomori.prev.tmp
 aomori-api.json
 csv/maps.tmp
+maps.py*
