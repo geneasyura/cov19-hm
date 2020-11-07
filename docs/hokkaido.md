@@ -13,7 +13,11 @@
 {% include hokkaido-ah.html %}
 
 ### 累乗近似
+
+{% include hokkaido-doubling-time.html %}
+
 {% include hokkaido-fit.html %}
+
 
 ## 検査人数/陽性率
 {% include hokkaido-rate.html %}
