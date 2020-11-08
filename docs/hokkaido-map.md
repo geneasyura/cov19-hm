@@ -32,6 +32,10 @@
 
 {% include hokkaido-cluster-hosp.html %}
 
+### 部屋種別(憶測)
+
+{% include hokkaido-cluster-room.html %}
+
 ## 各施設における感染対策改善案
 
 * 手洗い・消毒は続ける。
@@ -88,4 +92,13 @@
 ### 15 運動施設
 
 * TBD 
+
+## 参考資料
+現行建築基準法はホルムアルデヒド等によるシックハウス防止を主目的として、住宅は 0.5回/h、それ以外は 0.3回/hの最低ACHを規定している。
+* 森本正一. [気流制御による空気感染リスク低減](http://jsce-ac.umin.jp/181110-27-1/27-1-20_27.pdf). Jpn J Clin Ecol (Vol.27 No.1 2018)
+* 柳 宇. [院内感染予防における空調・換気の設計法](https://i.kawasaki-m.ac.jp/jsce/27-2/27-2_03_U.pdf). 臨床環境医学 (第27巻第2号) 
+* 文部科学省. [学校施設の換気設備に関する調査研究報告書 第2章 換気設備計画の立案（2）2）](https://www.mext.go.jp/a_menu/shisetu/shuppan/04062201/017.htm)
+* 三菱電機. [改正建築基準法](https://www.mitsubishielectric.co.jp/ldg/ja/air/guide/support/law/detail_01.html)
+* [換気における法規例](http://www.bungo.or.jp/t-shikai/linksigoto/kikaikanki.pdf)
+* 金 勲ら. [高齢者施設における室内環境と健康性に関する調査](https://www.jstage.jst.go.jp/article/shasetaikai/2014.8/0/2014.8_133/_pdf/-char/ja)
 
