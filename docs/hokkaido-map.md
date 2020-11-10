@@ -8,6 +8,10 @@
 * 市や道の発表資料ベースで個人で集計したものであるため、値は不正確（概算値）です。
 * 一部省略している事例もあります。
 
+### データ
+
+{% include maps.html %}
+
 ### 地域別
 
 {% include hokkaido-cluster-state.html %}
