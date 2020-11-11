@@ -6,6 +6,7 @@ import codecs
 from datetime import datetime, timedelta, timezone
 import lxml.html
 import requests
+from air_registance import AirRegistance
 
 def get_phpsid():
     """ PHP Session ID を取得する """
@@ -73,6 +74,7 @@ def save_jma_data(filename, city_code="s47412"):
 def parse_jma_csv(filename):
     """ JMAのCSVデータを解析し、リスト型で格納する """
     weather_info = []
+    ar = AirRegistance()
     with codecs.open(filename, encoding="shift-jis") as f:
         for i in range(6):
             l = f.readline() # 6行スキップ
@@ -86,13 +88,16 @@ def parse_jma_csv(filename):
                 vp = float(arr[ 7])
                 ap = float(arr[10])
                 ah = 18.0 * ((100.0 * vp) / (8.31447 * (273.15 + temp)))
+                # ウィルス微粒子が受ける空気抵抗力を 温湿度現地気圧から計算
+                Fd = ar.calc(t=temp, P=100*vp, rh=rh)
                 weather_info.append([
                     ts,
                     temp,  # 平均気温[℃]
                     rh,    # 平均湿度[%RH]
                     vp,    # 平均蒸気圧 [hPa]
                     ap,    # 平均現地気圧
-                    ah     # 容積絶対湿度 [g/㎥]
+                    ah,    # 容積絶対湿度 [g/㎥]
+                    Fd     # ウィルス微粒子に働く空気抵抗力
                 ])
         pass
     return weather_info
