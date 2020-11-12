@@ -12,6 +12,8 @@ import matplotlib.dates as dates
 import matplotlib.cm as cm
 import numpy as np
 import os
+import pandas as pd
+from PIL import Image
 import plotly
 import plotly.express as px
 import plotly.tools as tls
@@ -265,23 +267,57 @@ def create_basic_scatter_figure(xlabel, ylabel):
     return fig, ax
 
 
-#def mak_japan_heatmap(filename, title, npa1d, populations):
-#    """ 都道府県別ヒートマップを表示する """
-#    plt.close()
-#    plt.style.use("dark_background")
-#    plt.subplots_adjust(left=0.07, right=0.99, bottom=0.07, top=0.95)
-#    plt.title(title, fontname=FONT_NAME)
-#    plt.rcParams['figure.figsize'] = 6, 6
-#    cmap = plt.get_cmap("rainbow")
-#    norm = plt.Normalize(vmin=np.min(npa1d[1:]), vmax=np.max(npa1d[1:]))
-#    fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
-#    plt.colorbar(cm.ScalarMappable(norm, cmap))
-#    map_cols = {}
-#    for k, v in populations.items():
-#        map_cols[v['ja']] = fcol(npa1d[v['code']])
-#    pict = picture(map_cols)
-#    plt.imshow(pict)
-#    plt.savefig(filename)
+def make_japan_heatmap(filename, title, npa1d, populations):
+    """ 都道府県別ヒートマップを表示する """
+    fig = go.Figure()
+    w = 610
+    h = 630
+    cmap = plt.get_cmap("plasma")
+    norm = plt.Normalize(vmin=np.min(npa1d[1:]), vmax=np.max(npa1d[1:]))
+    fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
+    fig.add_trace(go.Scatter(x=[0, w], y=[0, h], mode='markers', marker_opacity=0))
+    fig.add_trace(go.Heatmap(x=[0, 0], y=[0, 0], opacity=0,
+        z=[np.min(npa1d[1:]), np.max(npa1d[1:])],
+        zmin=np.min(npa1d[1:]), zmax=np.max(npa1d[1:]),
+        type='heatmap', colorscale='plasma', showscale=True))
+    map_cols = {}
+    for k, v in populations.items():
+        map_cols[v['ja']] = fcol(npa1d[v['code']])
+    pict = picture(map_cols)
+    axis_template = lambda x: dict(
+        range=[0, x], autorange=False, showgrid=False, zeroline=False,
+        linecolor='black', showticklabels=False, ticks='')
+    fig.update_layout(title=title, xaxis=axis_template(w), yaxis=axis_template(h),
+                     showlegend=False, width=w, height=h, autosize=False,
+                      margin={"l": 0, "r": 0, "t":40, "b": 0}
+                     )
+    fig.add_layout_image(dict(
+            x=0, sizex=w, y=h, sizey=h, xref="x", yref="y", opacity=1,
+            layer="below", sizing="stretch", source=Image.fromarray(pict)))
+    show_and_save_plotly(fig, filename, js=False, show=True, image=True, html=False)
+
+
+def make_japan_choropleth(filename, title, npa1d):
+    """ 日本の choropleth を作成する """
+    f = codecs.open("japan-min.geojson", "r", encoding='utf-8')
+    geojson = json.load(f)
+    f.close()
+    df = pd.read_csv('population.txt',
+                     header=None, names=['reg', 'code', 'name', 'en', 'total', 'color'],
+                     dtype={'reg':int, 'code':int, 'name':str, 'total':int, 'color':float})
+    for i in range(len(npa1d)):
+        df.loc[i, 'color'] = npa1d[i]
+        #print(i, df.loc[i, 'color'], df.loc[i, 'name'], npa1d[i])
+        i += 1
+    fig = px.choropleth(df, geojson=geojson, color="color", hover_name='name',
+                    locations="code", featureidkey="properties.id",
+                    labels={'color':'値', 'code':'都道府県コード'},
+                    projection="mercator", title=title)
+    fig.update_geos(visible=False,
+                    lonaxis=dict(range=[127.632493, 145.792893]),
+                    lataxis=dict(range=[26.089333, 45.531737]))
+    fig.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
+    show_and_save_plotly(fig, filename, js=False, show=False, image=False, html=True)
 
 
 def show_and_save_plotly(fig, filename, js='directory', show=True, image=True, html=True):
