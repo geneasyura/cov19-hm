@@ -4,13 +4,26 @@
 
 import codecs
 from cv2 import imread, cvtColor, COLOR_BGR2RGB
-import matplotlib.pyplot as plt
-import matplotlib.dates as dates
-import matplotlib.cm as cm
+import json
+#import matplotlib.pyplot as plt
+#import matplotlib.dates as dates
+#import matplotlib.cm as cm
 import numpy as np
+import pandas as pd
+import plotly
+import plotly.express as px
+import plotly.tools as tls
+import plotly.graph_objects as go
+import plotly.io as pio
+import plotly.offline as offline
+from plotly.subplots import make_subplots
+import sys
+if "ipy" in sys.argv[0]:
+    offline.init_notebook_mode()
 from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPM
 from pathlib import Path
+from cov19utils import show_and_save_plotly
 
 FONT_NAME = 'MS Gothic'
 
@@ -96,24 +109,79 @@ def get_hokkaido(dic=None, ret=1):
     return img
 
 
-def make_hokkaido_heatmap(filename, title, npa1d):
+##def make_hokkaido_heatmap(filename, title, npa1d):
+##    """ 北海道のヒートマップを作成する """
+##    plt.close()
+##    plt.style.use("dark_background")
+##    #plt.subplots_adjust(left=0.07, right=0.99, bottom=0.07, top=0.95)
+##    plt.title(title, fontname=FONT_NAME)
+##    plt.rcParams['figure.figsize'] = 8, 8
+##    cmap = plt.get_cmap("rainbow")
+##    norm = plt.Normalize(vmin=np.min(npa1d), vmax=np.max(npa1d))
+##    fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
+##    plt.colorbar(cm.ScalarMappable(norm, cmap))
+##    map_cols = {}
+##    for k, v in sub_prefs.items():
+##        map_cols[k] = fcol(npa1d[k])
+##    #print(map_cols)
+##    pict = get_hokkaido(map_cols)
+##    plt.imshow(pict)
+##    plt.savefig(filename)
+
+
+def make_hokkaido_plotly(filename, title, npa1d):
     """ 北海道のヒートマップを作成する """
-    plt.close()
-    plt.style.use("dark_background")
-    #plt.subplots_adjust(left=0.07, right=0.99, bottom=0.07, top=0.95)
-    plt.title(title, fontname=FONT_NAME)
-    plt.rcParams['figure.figsize'] = 8, 8
-    cmap = plt.get_cmap("rainbow")
+    fig = go.Figure()
+    w=600
+    h=528
+    cmap = plt.get_cmap("plasma")
     norm = plt.Normalize(vmin=np.min(npa1d), vmax=np.max(npa1d))
     fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
-    plt.colorbar(cm.ScalarMappable(norm, cmap))
     map_cols = {}
     for k, v in sub_prefs.items():
         map_cols[k] = fcol(npa1d[k])
-    #print(map_cols)
     pict = get_hokkaido(map_cols)
-    plt.imshow(pict)
-    plt.savefig(filename)
+    fig.add_trace(go.Scatter(x=[0, w], y=[0, h], mode='markers', marker_opacity=0))
+    fig.add_trace(go.Heatmap(x=[0, 0], y=[0, 0], opacity=0,
+        z=[np.min(npa1d[1:]), np.max(npa1d[1:])],
+        zmin=np.min(npa1d[1:]), zmax=np.max(npa1d[1:]),
+        type='heatmap', colorscale='plasma', showscale=True))
+    map_cols = {}
+    axis_template = lambda x: dict(
+        range=[0, x], autorange=False, showgrid=False, zeroline=False,
+        linecolor='black', showticklabels=False, ticks='')
+    fig.update_layout(title=title, xaxis=axis_template(w), yaxis=axis_template(h),
+                     showlegend=False, width=w, height=h, autosize=False,
+                      margin={"l": 0, "r": 0, "t":40, "b": 0}
+                     )
+    fig.add_layout_image(dict(
+            x=0, sizex=w, y=h, sizey=h, xref="x", yref="y", opacity=1,
+            layer="below", sizing="stretch", source=Image.fromarray(pict)))
+    show_and_save_plotly(fig, filename, js=False, show=True, image=True, html=False)
+
+
+def make_hokkaido_choropleth(filename, title, npa1d):
+    """ 北海道の choropleth を作成する """
+    f = codecs.open("hokkaido-min.geojson", "r", encoding='utf-8')
+    geojson = json.load(f)
+    f.close()
+    df = pd.read_csv('hokkaido.txt', header=0, index_col=0,
+                 dtype={'code':str, 'total':int, 'subcode':str, 'color':float})
+    i = 0
+    for c in npa1d:
+        df.loc[i, 'color'] = c
+        i += 1
+    
+    fig = px.choropleth(df, geojson=geojson, color="color", hover_name='name',
+                    locations="subcode", featureidkey="properties.code",
+                    hover_data=['total'],
+                    labels={'color':'値', 'subcode':'自治体コード', 'total':'人口'},
+                    projection="mercator", title=title)
+    fig.update_geos(visible=False,
+                    lonaxis=dict(range=[139.772386, 145.792893]),
+                    lataxis=dict(range=[41.383390, 45.531737]))
+    fig.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
+    show_and_save_plotly(fig, filename, js=False, show=True, image=True, html=True)
 
 
 def test_picture():
