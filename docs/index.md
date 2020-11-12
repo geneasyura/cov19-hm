@@ -3,6 +3,7 @@
 - [東京予測](tokyo.md)
 - [全国予測](mhlw.md)
 - [拡大状況](pref.md)
+- [リスクマップ](airregist.md)
 - [北海道](hokkaido.md)
 - [北海道発生マップ](hokkaido-map.md)
 - [青森県](aomori.md)

@@ -3,6 +3,7 @@
 - [東京予測](https://geneasyura.github.io/cov19-hm/tokyo.html)
 - [全国予測](https://geneasyura.github.io/cov19-hm/mhlw.html)
 - [拡大状況](https://geneasyura.github.io/cov19-hm/pref.html)
+- [リスクマップ](https://geneasyura.github.io/cov19-hm/airregist.html)
 - [北海道](https://geneasyura.github.io/cov19-hm/hokkaido.html)
 - [北海道発生マップ](https://geneasyura.github.io/cov19-hm/hokkaido-map.html)
 - [青森県](https://geneasyura.github.io/cov19-hm/aomori.html)
