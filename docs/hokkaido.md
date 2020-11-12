@@ -13,6 +13,7 @@
 呼気によって放出される球体速度 $v$ は 0.8 m/s とする。shikino 様による球体空気抵抗力の計算式を用い、
 ウィルスを含む呼気から放出される微粒子に働く空気抵抗力と新規感染者数を以下に示す。
 微粒子に働く空気抵抗力（温湿度・気圧）が弱ければ弱いほど、微粒子の動きが活発化し、感染拡大につながると予測する。
+11月よりも12月、そして1月～2月がもっとも空気抵抗力が減少する。季節性インフルエンザ流行期と合致する。
 
 {% include hokkaido-fd.html %}
 
@@ -70,6 +71,6 @@ y = a 2^{b x}
 
 ## 参考資料
 
-* shikino. 球体の空気抵抗と係数. (https://slpr.sakura.ne.jp/qp/air-resistance/). 2015.
+* shikino. [球体の空気抵抗と係数](https://slpr.sakura.ne.jp/qp/air-resistance/). 2015.
 * 平原, 吉崎. [肺呼吸における流れと物質輸送](https://www.nagare.or.jp/download/noauth.html?d=34-4tokushu5.pdf&dir=144). ながれ34（2015）297-304.
 
