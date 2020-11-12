@@ -19,7 +19,7 @@
 
 ## 北海道 振興局別リスクマップ (空気抵抗力)
 
-%{ include hokkaido-map-fds.html %}
+{% include hokkaido-map-fds.html %}
 
 ## 参考資料
 
