@@ -43,7 +43,7 @@ h = 18.0 \times \frac{100.0 \times p} {8.31447 \times (273.15 + t)}
 
 
 \\[
-y = a 2^{b x}
+y = a 2^{b x} + c
 \\]
 
 
