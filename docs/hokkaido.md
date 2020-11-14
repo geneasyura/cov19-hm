@@ -46,6 +46,11 @@ h = 18.0 \times \frac{100.0 \times p} {8.31447 \times (273.15 + t)}
 y = a 2^{b x} + c
 \\]
 
+### 移動平均 倍加時間 (累乗近似)
+
+{% include hokkaido-doubling-time-ave.html %}
+
+{% include hokkaido-fit-ave.html %}
 
 ## 検査人数/陽性率
 {% include hokkaido-rate.html %}
