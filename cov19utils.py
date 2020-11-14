@@ -20,6 +20,7 @@ import plotly.tools as tls
 import plotly.graph_objects as go
 import plotly.io as pio
 import plotly.offline as offline
+from scipy.optimize import curve_fit
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import WhiteKernel, ExpSineSquared, RBF, ConstantKernel
 import sys
@@ -338,3 +339,47 @@ def show_and_save_plotly(fig, filename, js='directory', show=True, image=True, h
             include_plotlyjs=js, auto_play=False, full_html=False)
         print("wrote to {}".format(htmlname))
     pass
+
+
+def make_exp_fit_graph(twt, xbins, ybins, title, imgname, htmlname, linkhtml):
+    """ 倍加時間近似関数をプロットする """
+    xdays = np.array([i.days for i in (xbins - xbins[0])])
+    xrange = np.arange(len(xdays))
+    (a, b, c), p0 = curve_fit(
+        lambda t, a, b, c: a * 2 ** (b * t) + c, xrange, ybins, 
+        p0=[1, 1, 1], maxfev=1000)
+    print(a, b, c)
+    pred_days = 14
+    xrange = np.arange(pred_days + len(xdays))
+    y_fit = np.array([a * 2 ** (b * i) + c for i in xrange])
+    x_pred = np.array(xbins)
+    for i in np.arange(pred_days):
+        x_pred = np.append(x_pred, (xbins[-1] + td(days=int(1 + i))))
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(
+        x=xbins, y=ybins, mode='markers', name='新規感染者',
+        marker=dict(size=4)))
+    fig.add_trace(go.Scatter(
+        x=x_pred, y=y_fit, name="$a2^{bx}+c$",
+        line=dict(width=1)))
+    fig.update_layout(
+        xaxis=dict(title='日付', type='date', 
+                   dtick=604800000.0, tickformat="%_m/%-d"),
+        yaxis=dict(title='人数', type='log'),
+        title=title)
+    show_and_save_plotly(
+        fig, imgname, js=False, show=True, image=True, html=True)
+    ab_params = " (a=%.2f, b=%.2f, c=%.2f) " % (a, b, c)
+    tw_body = title + ab_params
+    if b > 0.0:
+        doubling_time = " 倍加時間:%.2f 日 " % (1.0 / b)
+        print(doubling_time)
+        tw_body += doubling_time
+        htm_name = "docs/_includes/{}".format(htmlname)
+        with codecs.open(htm_name, "w", encoding='utf-8') as f:
+            f.write("<div>{} {}</div>".format(doubling_time, ab_params))
+    else:
+        print("Error: failed to fit.")
+    tw_body += " https://geneasyura.github.io/cov19-hm/{} ".format(linkhtml)
+    tweet_with_image(twt, "docs/images/{}".format(imgname), tw_body)
+
