@@ -160,7 +160,7 @@ def make_hokkaido_plotly(filename, title, npa1d):
     show_and_save_plotly(fig, filename, js=False, show=True, image=True, html=False)
 
 
-def make_hokkaido_choropleth(filename, title, npa1d):
+def make_hokkaido_choropleth(filename, title, npa1d, show=True):
     """ 北海道の choropleth を作成する """
     f = codecs.open("hokkaido-min.geojson", "r", encoding='utf-8')
     geojson = json.load(f)
@@ -181,7 +181,7 @@ def make_hokkaido_choropleth(filename, title, npa1d):
                     lonaxis=dict(range=[139.772386, 145.792893]),
                     lataxis=dict(range=[41.383390, 45.531737]))
     fig.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
-    show_and_save_plotly(fig, filename, js=False, show=True, image=True, html=True)
+    show_and_save_plotly(fig, filename, js=False, show=show, image=True, html=True)
 
 
 def test_picture():
