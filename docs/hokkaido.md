@@ -56,6 +56,10 @@ $x$ 軸を札幌の平均気温の7日移動平均、$y$ 軸を絶対湿度の7�
 
 本グラフは日毎に自動的に更新される。
 
+同様に、絶対湿度ではなく、相対湿度 [%RH] のグラフも下図に示す。
+
+{% include hokkaido-trh.html %}
+
 ### 倍加時間 (累乗近似)
 
 {% include hokkaido-doubling-time.html %}
