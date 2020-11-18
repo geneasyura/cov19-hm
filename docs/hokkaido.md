@@ -60,6 +60,14 @@ $x$ 軸を札幌の平均気温の7日移動平均、$y$ 軸を絶対湿度の7�
 
 {% include hokkaido-trh.html %}
 
+絶対湿度の等高線グラフを下図に示す。
+
+{% include hokkaido-tvh-contour.html %}
+
+相対湿度の等高線グラフを下図に示す。
+
+{% include hokkaido-trh-contour.html %}
+
 ### 倍加時間 (累乗近似)
 
 {% include hokkaido-doubling-time.html %}
