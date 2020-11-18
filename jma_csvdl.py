@@ -89,7 +89,7 @@ def parse_jma_csv(filename):
                 ap = float(arr[10])
                 ah = 18.0 * ((100.0 * vp) / (8.31447 * (273.15 + temp)))
                 # ウィルス微粒子が受ける空気抵抗力を 温湿度現地気圧から計算
-                Fd = ar.calc(t=temp, P=100*vp, rh=rh)
+                Fd = ar.calc(t=temp, P=100*ap, rh=rh)
                 weather_info.append([
                     ts,
                     temp,  # 平均気温[℃]
