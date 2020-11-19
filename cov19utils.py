@@ -160,7 +160,7 @@ def tweet_with_image(twtr, filename, msg):
 
     #return
 
-    print(msg)
+    #print(msg)
     with open(filename, "rb") as imagefile:
         imagedata = imagefile.read()
         params = {"media[]": imagedata, "status": msg + " #COVID19"}
