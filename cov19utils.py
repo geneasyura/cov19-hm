@@ -134,13 +134,15 @@ def csv2array(arr, k, filename, idx, dt_os=DT_OFFSET):
                 delta = dt.strptime(elems.pop(0), "%Y/%m/%d") - from_date
                 cnt = 0
                 for elem in elems:
-                    arr[delta.days][cnt + idx] = blank2zero(elem)
+                    arr[int(delta.days)][cnt + idx] = blank2zero(elem)
                     cnt += 1
+                    if k == 'pcr' and cnt == 6: break
                 if k == 'pcr':
                     daily_total = 0
                     for elem in elems:
                         daily_total += blank2zero(elem)
-                    arr[delta.days][idx + cnt] = daily_total
+                    #print("delta:{} idx:{} cnt:{} total:{}.".format(delta.days, idx, cnt, daily_total))
+                    arr[int(delta.days)][idx + cnt] = daily_total
     pass
 
 
