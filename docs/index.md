@@ -2,11 +2,12 @@
 
 - 東京
   - [発生状況](tokyo.md)
-  - [倍加時間](tokyo-fit.md)]
+  - [倍加時間](tokyo-fit.md)
   - [自治体別の罹患率](tokyo-hm.md)
 - 全国
-  - [全国予測](mhlw.md)
-  - [拡大状況](pref.md)
+  - [発生状況](mhlw.md)
+  - [感染拡大傾向](pref.md)
+  - [都道府県別の実効再生産数、罹患率、陽性率](pref-hm.md)
   - [リスクマップ](airregist.md)
 - 北海道
   - [発生状況](hokkaido.md)
