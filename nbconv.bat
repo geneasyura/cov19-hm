@@ -5,3 +5,4 @@ jupyter nbconvert heatmap.ipynb --to python
 jupyter nbconvert hokkaido.ipynb --to python
 jupyter nbconvert maps.ipynb --to python
 jupyter nbconvert airregist.ipynb --to python
+jupyter nbconvert vh-contours.ipynb --to python

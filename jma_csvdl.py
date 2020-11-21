@@ -7,6 +7,7 @@ from datetime import datetime, timedelta, timezone
 import lxml.html
 import requests
 from air_registance import AirRegistance
+import time
 
 def get_phpsid():
     """ PHP Session ID を取得する """
@@ -63,13 +64,21 @@ def get_jma_headers():
 def save_jma_data(filename, city_code="s47412"):
     """ JMA からCSVデータをダウンロードし、ファイルに保存する """
     url = "http://www.data.jma.go.jp/gmd/risk/obsdl/show/table"
-    r = requests.post(url, data=get_jma_payload(city_code), headers=get_jma_headers())
-    print(r.status_code)
-    f=codecs.open(filename, "wb")
-    f.write(r.content)
-    f.close()
-    print("Wrote {} bytes into {}".format(len(r.content), filename))
-
+    i = 0
+    while i < 10:
+        r = requests.post(url, data=get_jma_payload(city_code), headers=get_jma_headers())
+        f = codecs.open(filename, "wb")
+        f.write(r.content)
+        f.close()
+        print("{}: Wrote {} bytes into {}".format(r.status_code, len(r.content), filename))
+        f = codecs.open(filename, "rb", encoding="shift-jis")
+        line = f.readline()
+        f.close()
+        if not line.startswith("<!DOCTYPE html PUBLIC"):
+            break
+        print("Failed to download csv, retrying...")
+        time.sleep(3)
+        i += 1
 
 def parse_jma_csv(filename):
     """ JMAのCSVデータを解析し、リスト型で格納する """
@@ -101,10 +110,4 @@ def parse_jma_csv(filename):
                 ])
         pass
     return weather_info
-
-
-
-
-
-
 

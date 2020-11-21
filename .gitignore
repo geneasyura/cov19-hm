@@ -65,3 +65,11 @@ aomori-api.json
 csv/maps.tmp
 maps.py*
 airregist.py*
+prefectures.csv.tmp2
+jma-aichi.csv
+jma-fukuoka.csv
+jma-kanagawa.csv
+jma-okinawa.csv
+jma-osaka.csv
+jma-tokyo.csv
+vh-contours.py*

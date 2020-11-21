@@ -4,6 +4,7 @@
   - [発生状況](tokyo.md)
   - [倍加時間](tokyo-fit.md)
   - [自治体別の罹患率](tokyo-hm.md)
+  - [感染日と温湿度](tokyo-tvh.md)
 - 全国
   - [発生状況](mhlw.md)
   - [感染拡大傾向](pref.md)
@@ -19,10 +20,15 @@
   - [青森県](aomori.md)
   - [埼玉県](saitama.md)
   - [神奈川県](kanagawa.md)
+    - [感染日と温湿度](kanagawa-tvh.md)
   - [大阪府](osaka.md)
+      - [感染日と温湿度](osaka-tvh.md)
   - [愛知県](nagoya.md)
+      - [感染日と温湿度](aichi-tvh.md)
   - [福岡県](fukuoka.md)
+      - [感染日と温湿度](fukuoka-tvh.md)
   - [沖縄県](okinawa.md)
+      - [感染日と温湿度](okinawa-tvh.md)
 
 
 ## 参考資料

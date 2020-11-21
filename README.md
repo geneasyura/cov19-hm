@@ -1,18 +1,35 @@
 ## COVID-19 Visualization and Estimation
 
-- [東京予測](https://geneasyura.github.io/cov19-hm/tokyo.html)
-- [全国予測](https://geneasyura.github.io/cov19-hm/mhlw.html)
-- [拡大状況](https://geneasyura.github.io/cov19-hm/pref.html)
-- [リスクマップ](https://geneasyura.github.io/cov19-hm/airregist.html)
-- [北海道](https://geneasyura.github.io/cov19-hm/hokkaido.html)
-- [北海道発生マップ](https://geneasyura.github.io/cov19-hm/hokkaido-map.html)
-- [青森県](https://geneasyura.github.io/cov19-hm/aomori.html)
-- [埼玉県](https://geneasyura.github.io/cov19-hm/saitama.html)
-- [神奈川県](https://geneasyura.github.io/cov19-hm/kanagawa.html)
-- [大阪府](https://geneasyura.github.io/cov19-hm/osaka.html)
-- [愛知県](https://geneasyura.github.io/cov19-hm/nagoya.html)
-- [福岡県](https://geneasyura.github.io/cov19-hm/fukuoka.html)
-- [沖縄県](https://geneasyura.github.io/cov19-hm/okinawa.html)
+- 東京
+  - [発生状況](https://geneasyura.github.io/cov19-hm/tokyo.md)
+  - [倍加時間](https://geneasyura.github.io/cov19-hm/tokyo-fit.md)
+  - [自治体別の罹患率](https://geneasyura.github.io/cov19-hm/tokyo-hm.md)
+  - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/tokyo-tvh.md)
+- 全国
+  - [発生状況](https://geneasyura.github.io/cov19-hm/mhlw.md)
+  - [感染拡大傾向](https://geneasyura.github.io/cov19-hm/pref.md)
+  - [都道府県別の実効再生産数、罹患率、陽性率](https://geneasyura.github.io/cov19-hm/pref-hm.md)
+  - [リスクマップ](https://geneasyura.github.io/cov19-hm/airregist.md)
+- 北海道
+  - [発生状況](https://geneasyura.github.io/cov19-hm/hokkaido.md)
+  - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/hokkaido-trh-tvh.md)
+  - [倍加時間](https://geneasyura.github.io/cov19-hm/hokkaido-fit.md)
+  - [振興局別の罹患率](https://geneasyura.github.io/cov19-hm/hokkaido-hm.md)
+  - [クラスタ分析](https://geneasyura.github.io/cov19-hm/hokkaido-map.md)
+- 各都道府県 自治体別 罹患率
+  - [青森県](https://geneasyura.github.io/cov19-hm/aomori.md)
+  - [埼玉県](https://geneasyura.github.io/cov19-hm/saitama.md)
+  - [神奈川県](https://geneasyura.github.io/cov19-hm/kanagawa.md)
+    - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/kanagawa-tvh.md)
+  - [大阪府](https://geneasyura.github.io/cov19-hm/osaka.md)
+      - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/osaka-tvh.md)
+  - [愛知県](https://geneasyura.github.io/cov19-hm/nagoya.md)
+      - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/aichi-tvh.md)
+  - [福岡県](https://geneasyura.github.io/cov19-hm/fukuoka.md)
+      - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/fukuoka-tvh.md)
+  - [沖縄県](https://geneasyura.github.io/cov19-hm/okinawa.md)
+      - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/okinawa-tvh.md)
+
 
 ## 参考資料
 
