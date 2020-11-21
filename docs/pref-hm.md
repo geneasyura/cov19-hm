@@ -1,4 +1,5 @@
 # 全国 新型コロナウィルス
+{% include plotly.html %}
 
 ## 都道府県別 実行再生産数
 {% include japan-erns.html %}
