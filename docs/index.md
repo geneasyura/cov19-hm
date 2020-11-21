@@ -1,18 +1,28 @@
 # 新型コロナウィルス 拡大状況と予測
 
-- [東京予測](tokyo.md)
-- [全国予測](mhlw.md)
-- [拡大状況](pref.md)
-- [リスクマップ](airregist.md)
-- [北海道](hokkaido.md)
-- [北海道発生マップ](hokkaido-map.md)
-- [青森県](aomori.md)
-- [埼玉県](saitama.md)
-- [神奈川県](kanagawa.md)
-- [大阪府](osaka.md)
-- [愛知県](nagoya.md)
-- [福岡県](fukuoka.md)
-- [沖縄県](okinawa.md)
+- 東京
+  - [発生状況](tokyo.md)
+  - [倍加時間](tokyo-fit.md)]
+  - [自治体別の罹患率](tokyo-hm.md)
+- 全国
+  - [全国予測](mhlw.md)
+  - [拡大状況](pref.md)
+  - [リスクマップ](airregist.md)
+- 北海道
+  - [発生状況](hokkaido.md)
+  - [感染日と温湿度](hokkaido-trh-tvh.md)
+  - [倍加時間](hokkaido-fit.md)
+  - [振興局別の罹患率](hokkaido-hm.md)
+  - [クラスタ分析](hokkaido-map.md)
+- 各都道府県 自治体別 罹患率
+  - [青森県](aomori.md)
+  - [埼玉県](saitama.md)
+  - [神奈川県](kanagawa.md)
+  - [大阪府](osaka.md)
+  - [愛知県](nagoya.md)
+  - [福岡県](fukuoka.md)
+  - [沖縄県](okinawa.md)
+
 
 ## 参考資料
 
