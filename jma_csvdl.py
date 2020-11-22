@@ -15,6 +15,7 @@ def get_phpsid():
     tree = lxml.html.fromstring(r.text)
     phpsid = tree.cssselect("input#sid")[0].value
     print("PHP Session ID: {}".format(phpsid))
+    time.sleep(1)
     return phpsid
 
 
