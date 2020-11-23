@@ -50,6 +50,7 @@
 - [埼玉県 新型コロナウイルス感染症対策サイト](https://github.com/geneasyura/cov19-hm)
 - [神奈川県オープンデータ](http://www.pref.kanagawa.jp/docs/t3u/dst/s0060925.html)
 - [青森県内における新型コロナウイルス感染症の感染動向データ](https://opendata.pref.aomori.lg.jp/dataset/1531.html)
+- 高須夫悟. [2019 年度 個体群動態の数理](http://gi.ics.nara-wu.ac.jp/~takasu/lecture/global19.html)
 
 ## 謝辞・Copyright・出典
 
