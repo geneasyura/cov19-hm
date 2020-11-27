@@ -343,7 +343,7 @@ def show_and_save_plotly(fig, filename, js='directory', show=True, image=True, h
     pass
 
 
-def make_exp_fit_graph(twt, xbins, ybins, title, imgname, htmlname, linkhtml):
+def make_exp_fit_graph(twt, xbins, ybins, title, imgname, htmlname, linkhtml, needs_tw=True):
     """ 倍加時間近似関数をプロットする """
     xdays = np.array([i.days for i in (xbins - xbins[0])])
     xrange = np.arange(len(xdays))
