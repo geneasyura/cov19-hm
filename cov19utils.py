@@ -383,5 +383,6 @@ def make_exp_fit_graph(twt, xbins, ybins, title, imgname, htmlname, linkhtml, ne
     else:
         print("Error: failed to fit.")
     tw_body += " https://geneasyura.github.io/cov19-hm/{} ".format(linkhtml)
-    tweet_with_image(twt, "docs/images/{}".format(imgname), tw_body)
+    if needs_tw:
+        tweet_with_image(twt, "docs/images/{}".format(imgname), tw_body)
 
