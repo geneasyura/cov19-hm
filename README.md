@@ -51,6 +51,7 @@
 - [神奈川県オープンデータ](http://www.pref.kanagawa.jp/docs/t3u/dst/s0060925.html)
 - [青森県内における新型コロナウイルス感染症の感染動向データ](https://opendata.pref.aomori.lg.jp/dataset/1531.html)
 - 高須夫悟. [2019 年度 個体群動態の数理](http://gi.ics.nara-wu.ac.jp/~takasu/lecture/global19.html)
+- [COVID-19 空気調和・衛生工学会の取組](http://www.shasej.org/base.html?recommendation/covid-19/covid-19.html)
 
 ## 謝辞・Copyright・出典
 
