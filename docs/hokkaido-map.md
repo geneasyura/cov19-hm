@@ -141,4 +141,5 @@
 * 三菱電機. [改正建築基準法](https://www.mitsubishielectric.co.jp/ldg/ja/air/guide/support/law/detail_01.html)
 * [換気における法規例](http://www.bungo.or.jp/t-shikai/linksigoto/kikaikanki.pdf)
 * 金 勲ら. [高齢者施設における室内環境と健康性に関する調査](https://www.jstage.jst.go.jp/article/shasetaikai/2014.8/0/2014.8_133/_pdf/-char/ja)
+* [新型コロナウイルス感染症（COVID-19）関係者向け特設ページ](https://extranet.who.int/kobe_centre/ja/news/COVID19_specialpage_technical)
 

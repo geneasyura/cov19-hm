@@ -52,6 +52,10 @@
 - [青森県内における新型コロナウイルス感染症の感染動向データ](https://opendata.pref.aomori.lg.jp/dataset/1531.html)
 - 高須夫悟. [2019 年度 個体群動態の数理](http://gi.ics.nara-wu.ac.jp/~takasu/lecture/global19.html)
 - [COVID-19 空気調和・衛生工学会の取組](http://www.shasej.org/base.html?recommendation/covid-19/covid-19.html)
+- 梁廷波ら. [新型コロナウイルス感染症対策ハンドブック](https://www.gale.com/binaries/content/assets/gale-us-en/intl-assets/intl-assets-uk--europe/6-handbook-of-covid-19-prevention-and-treatment-standard-japanese.pdf)
+- 医学中央雑誌刊行会 [新型コロナウイルス感染症（COVID-19） 関連文献](https://www.jamas.or.jp/special/covid19/)
+- 日本医師会. [新型コロナウィルス感染症](http://www.med.or.jp/doctor/kansen/novel_corona/009082.html)
+- 日本医師会 [COVID-19有識者会議](https://www.covid19-jma-medical-expert-meeting.jp/)
 
 ## 謝辞・Copyright・出典
 

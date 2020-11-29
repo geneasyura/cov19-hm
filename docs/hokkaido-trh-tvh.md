@@ -59,3 +59,6 @@ $x$ 軸を札幌の平均気温の7日移動平均、$y$ 軸を絶対湿度の7�
 * J.min様: [各国の通年絶対湿度](https://twitter.com/Jmin123456789/status/1315690033135845382)
 * J.min様: [絶対湿度の流行条件](https://twitter.com/Jmin123456789/status/1315682303796940805)
 * 庄司 眞: [季節とインフルエンザの流行](https://www.niph.go.jp/journal/data/48-4/199948040003.pdf). 1999.
+* [Temperature, Humidity, and Latitude Analysis to Estimate Potential Spread and Seasonality of Coronavirus Disease 2019 (COVID-19)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2767010)
+* [Wet-Bulb Temperature Modulates SARS-CoV-2 Superspreading Events](https://www.researchgate.net/publication/344819638_Wet-Bulb_Temperature_Modulates_SARS-CoV-2_Superspreading_Events)
+* [COVID-19が疑われた場合の医療ケアにおける感染予防と制御 が疑われた場合の医療ケアにおける感染予防と制御 が疑われた場合の医療ケアにおける感染予防と制御 が疑われた場合の医療ケアにおける感染予防と制御 が疑われた場合の医療ケアにおける感染予防と制御 が疑われた場合の医療ケアにおける感染予防と制御](https://extranet.who.int/kobe_centre/sites/default/files/translations/20200319_JA_IPC_Healthcare.pdf)
