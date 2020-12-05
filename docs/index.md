@@ -10,6 +10,7 @@
   - [感染拡大傾向](pref.md)
   - [都道府県別の実効再生産数、罹患率、陽性率](pref-hm.md)
   - [リスクマップ](airregist.md)
+  - [インフルとの比較](influ.md)
 - 北海道
   - [発生状況](hokkaido.md)
   - [感染日と温湿度](hokkaido-trh-tvh.md)

@@ -10,6 +10,7 @@
   - [感染拡大傾向](https://geneasyura.github.io/cov19-hm/pref.html)
   - [都道府県別の実効再生産数、罹患率、陽性率](https://geneasyura.github.io/cov19-hm/pref-hm.html)
   - [リスクマップ](https://geneasyura.github.io/cov19-hm/airregist.html)
+  - [インフルとの比較](https://geneasyura.github.io/cov19-hm/influ.html)
 - 北海道
   - [発生状況](https://geneasyura.github.io/cov19-hm/hokkaido.html)
   - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/hokkaido-trh-tvh.html)
