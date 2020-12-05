@@ -71,3 +71,4 @@
 - PD: [地球地図日本](https://www.gsi.go.jp/kankyochiri/gm_jpn.html) の [GeoJSON版](https://github.com/dataofjapan/land) を使用
 - 気象庁ホームページ [過去の気象データ検索](http://www.data.jma.go.jp/obd/stats/etrn/)
 - CC-BY: [奥村晴彦先生 シェープファイルを読む](https://oku.edu.mie-u.ac.jp/~okumura/stat/shape.html)
+- 国立感染症研究所が公開している [インフルエンザウイルス分離・検出速報](https://www.niid.go.jp/niid/ja/iasr-inf.html) のCSV(2020/12/05参照)をもとに遺伝子組換阿修羅がデータを加工。
