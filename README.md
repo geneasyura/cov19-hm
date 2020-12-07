@@ -1,5 +1,6 @@
 ## COVID-19 Visualization and Estimation
 
+- [分析結果](https://github.com/geneasyura/cov19-hm/wiki/Report)
 - 東京
   - [発生状況](https://geneasyura.github.io/cov19-hm/tokyo.html)
   - [倍加時間](https://geneasyura.github.io/cov19-hm/tokyo-fit.html)
