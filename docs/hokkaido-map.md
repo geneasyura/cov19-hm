@@ -10,6 +10,8 @@
 
 ### データ
 
+[CSV 形式でダウンロード](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/csv/maps.csv)
+
 {% include maps.html %}
 
 ### 地域別
