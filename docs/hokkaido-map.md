@@ -22,6 +22,10 @@
 
 {% include hokkaido-cluster-category.html %}
 
+### 居室別
+
+{% include hokkaido-cluster-room.html %}
+
 ### ツリーマップ(憶測)
 
 {% include hokkaido-cluster-tree.html %}
