@@ -22,21 +22,19 @@
 
 {% include hokkaido-cluster-category.html %}
 
-### 会話発生率(憶測)
+### ツリーマップ(憶測)
 
-{% include hokkaido-cluster-voice.html %}
+{% include hokkaido-cluster-tree.html %}
 
-### 大声発生率(推測)
+### (医療介護除く)ツリーマップ(推測)
 
-{% include hokkaido-cluster-loud.html %}
+{% include hokkaido-cluster-tree2.html %}
 
-### 医療機関率(概算)
+### 医療機関ツリーマップ
+
+2020年11月以前に認定された医療機関を除く。
 
 {% include hokkaido-cluster-hosp.html %}
-
-### 部屋種別(憶測)
-
-{% include hokkaido-cluster-room.html %}
 
 ## 共通 感染症対策案
 
