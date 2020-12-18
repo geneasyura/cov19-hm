@@ -74,3 +74,4 @@
 - 気象庁ホームページ [過去の気象データ検索](http://www.data.jma.go.jp/obd/stats/etrn/)
 - CC-BY: [奥村晴彦先生 シェープファイルを読む](https://oku.edu.mie-u.ac.jp/~okumura/stat/shape.html)
 - 国立感染症研究所が公開している [インフルエンザウイルス分離・検出速報](https://www.niid.go.jp/niid/ja/iasr-inf.html) のCSV(2020/12/05参照)をもとに遺伝子組換阿修羅がデータを加工。
+- 新型コロナ関連の情報提供: [NHK](https://www3.nhk.or.jp/news/special/coronavirus/data-widget/)
