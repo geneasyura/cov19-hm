@@ -149,9 +149,10 @@ def csv2array(arr, k, filename, idx, dt_os=DT_OFFSET):
 def get_twitter():
     """ Twitterインスタンスを取得する """
     tw_cfg = yaml.load(open(".tokens"), Loader=yaml.SafeLoader)
-    tw = Twitter(auth=OAuth(
+    oauth = OAuth(
         tw_cfg['ACCESS_TOKEN'], tw_cfg['ACCESS_TOKEN_SECRET'],
-        tw_cfg['CONSUMER_KEY'], tw_cfg['CONSUMER_SECRET']))
+        tw_cfg['CONSUMER_KEY'], tw_cfg['CONSUMER_SECRET'])
+    tw = Twitter(auth=oauth)
     return tw
 
 
@@ -169,7 +170,6 @@ def tweet_with_image(twtr, filename, msg):
         req = twtr.statuses.update_with_media(**params)
         print(req['created_at'])
     print("Tweeted.")
-
 
 def get_gpr_predict(x, y, x_pred, rbf=80, c=10, w=200):
     """ ガウス過程回帰の予測系列を取得する """
