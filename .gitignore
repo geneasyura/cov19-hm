@@ -77,3 +77,6 @@ nhk_news_covid19_domestic_daily_data.csv
 nhk.csv
 nhk.prev.tmp
 nhk.py
+newpage_00023.html
+*.xlsx
+np00023.tmp
