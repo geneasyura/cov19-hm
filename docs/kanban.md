@@ -60,35 +60,35 @@
 ## 温湿度と感染者数
 
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/hokkaido-tvh-contour.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/aichi-tvh-cont.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/fukuoka-tvh-cont.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/kanagawa-tvh-cont.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/okinawa-tvh-cont.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/osaka-tvh-cont.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/tokyo-tvh-cont.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/aichi-tvh-cont.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/kanagawa-tvh-cont.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/osaka-tvh-cont.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/fukuoka-tvh-cont.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/okinawa-tvh-cont.jpg)
 
 ## 行政区域別 全期間罹患率
 
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/hokkaido-all.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/aomori-hm.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/fukuoka-hm.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/kanagawa-hm.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/nagoya-hm.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/okinawa-hm.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/osaka-hm.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/saitama-hm.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/tokyo-hm.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/kanagawa-hm.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/nagoya-hm.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/osaka-hm.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/fukuoka-hm.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/okinawa-hm.jpg)
 
 ## 行政区域別 直近1～2週間 罹患率
 
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/hokkaido-2w.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/aomori-hm-1w.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/fukuoka-hm-1w.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/saitama-hm-1w.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/kanagawa-hm-1w.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/nagoya-hm-1w.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/okinawa-hm-1w.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/osaka-hm-1w.jpg)
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/saitama-hm-1w.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/fukuoka-hm-1w.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/okinawa-hm-1w.jpg)
 
 ## 相関グラフ
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/pcr-lr-1.jpg)
