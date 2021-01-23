@@ -1,5 +1,6 @@
 # 新型コロナウィルス 拡大状況と予測
 
+- [ダッシュボード](kanban.md)
 - [分析結果](https://github.com/geneasyura/cov19-hm/wiki/Report)
 - 東京
   - [発生状況](tokyo.md)

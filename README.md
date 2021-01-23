@@ -1,5 +1,6 @@
 ## COVID-19 Visualization and Estimation
 
+- [ダッシュボード](https://geneasyura.github.io/cov19-hm/kanban.html)
 - [分析結果](https://github.com/geneasyura/cov19-hm/wiki/Report)
 - 東京
   - [発生状況](https://geneasyura.github.io/cov19-hm/tokyo.html)

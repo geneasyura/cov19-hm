@@ -14,7 +14,7 @@
 $x$ 軸を札幌の平均気温の7日移動平均、$y$ 軸を絶対湿度の7日移動平均とし、
 人数をカラースケールでプロットしたのが以下の図である。
 
-{% include hokkaido-tvh.html %}
+{% include hokkaido-tvh-contour.html %}
 
 本グラフは日毎に自動的に更新される。
 
@@ -40,14 +40,6 @@ $x$ 軸を札幌の平均気温の7日移動平均、$y$ 軸を絶対湿度の7�
 北海道は東京よりも重力加速度が大きいため、微粒子が地表に落下する時間が早いものと思う。
 
 ### 相対湿度 [%RH] のグラフ
-
-{% include hokkaido-trh.html %}
-
-### 絶対湿度の等高線グラフ
-
-{% include hokkaido-tvh-contour.html %}
-
-### 相対湿度の等高線グラフ
 
 {% include hokkaido-trh-contour.html %}
 
