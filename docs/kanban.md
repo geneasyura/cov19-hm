@@ -1,5 +1,7 @@
 # 新型コロナウィルス 全国ダッシュボード
 
+{% include kanban-layout.html %}
+
 ## 全国の陽性率・検査数・累計
 
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/mhlw-posis.jpg)
