@@ -13,6 +13,13 @@
   - [都道府県別の実効再生産数、罹患率、陽性率](https://geneasyura.github.io/cov19-hm/pref-hm.html)
   - [リスクマップ](https://geneasyura.github.io/cov19-hm/airregist.html)
   - [インフルとの比較](https://geneasyura.github.io/cov19-hm/influ.html)
+  - [直近2週間の動向](https://geneasyura.github.io/cov19-hm/nhk-1-2.html)
+  - [全期間感染状況](https://geneasyura.github.io/cov19-hm/nhk-3-4.html)
+  - [全期間死者状況](https://geneasyura.github.io/cov19-hm/nhk-5-6.html)
+  - [週毎100万人あたりの状況](https://geneasyura.github.io/cov19-hm/nhk-7-8.html)
+  - [日別100万人あたりの近況](https://geneasyura.github.io/cov19-hm/nhk-9-10.html)
+  - [療養状況・病床数](https://geneasyura.github.io/cov19-hm/np00023.html)
+  - [検査数の分析](https://geneasyura.github.io/cov19-hm/pcrlr.html)
 - 北海道
   - [発生状況](https://geneasyura.github.io/cov19-hm/hokkaido.html)
   - [感染日と温湿度](https://geneasyura.github.io/cov19-hm/hokkaido-trh-tvh.html)

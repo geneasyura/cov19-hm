@@ -94,24 +94,6 @@ def update_layout(fig, title, today_str):
         width=600, height=400, template='plotly_dark',
         title=title + " " + today_str, showlegend=False)
 
-def add_trace2fig(df, i, x, y, X, fig, key, prefs):
-    dfh = df[ df['都道府県名'] == prefs[i]]
-    Y = dfh[key].values
-    trace_xy = go.Scatter(
-        x=X, y=Y, mode='lines', line=dict(width=1, color='white'))
-    trace_ma = go.Scatter(
-        x=X, y=moving_average(Y), mode='lines',
-        line=dict(width=.75, color='green'))
-    fig.add_trace(trace_xy, y, x)
-    fig.add_trace(trace_ma, y, x)
-
-def make_prefs_subplots(df, k, figa, figb, X, prefs):
-    for y in np.arange(4):
-        for x in np.arange(6):
-            i = x + (y * 6)
-            add_trace2fig(df, i, x+1, y+1, X, figa, k, prefs)
-            if i < 23:
-                add_trace2fig(df, i + 24, x+1, y+1, X, figb, k, prefs)
 
 def get_template_fig(prefs):
     figa = subplots.make_subplots(
