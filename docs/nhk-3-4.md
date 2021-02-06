@@ -2,6 +2,6 @@
 
 {% include plotly.html %}
 
-{% include nhk-all-3.html}
+{% include nhk-all-3.html %}
 
-{% include nhk-all-4.html}
+{% include nhk-all-4.html %}
