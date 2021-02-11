@@ -9,3 +9,4 @@ jupyter nbconvert vh-contours.ipynb --to python
 jupyter nbconvert nhk.ipynb --to python
 jupyter nbconvert np00023.ipynb --to python
 jupyter nbconvert pcrlr.ipynb --to python
+jupyter nbconvert longcovid.ipynb --to python

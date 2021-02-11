@@ -9,3 +9,4 @@ python vh-contours.py
 python nhk.py
 python np00023.py
 python pcrlr.py
+python longcovid.py
