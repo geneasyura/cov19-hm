@@ -2,6 +2,7 @@
 
 - [ダッシュボード](kanban.md)
 - [分析結果](https://github.com/geneasyura/cov19-hm/wiki/Report)
+- [後遺症外来](longcovid.md)
 - 東京
   - [発生状況](tokyo.md)
   - [倍加時間](tokyo-fit.md)
