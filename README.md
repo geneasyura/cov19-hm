@@ -2,7 +2,7 @@
 
 - [ダッシュボード](https://geneasyura.github.io/cov19-hm/kanban.html)
 - [分析結果](https://github.com/geneasyura/cov19-hm/wiki/Report)
-- [後遺症外来](https://geneasyura.github.io/cov19-hm/longcovid.md)
+- [後遺症外来](https://geneasyura.github.io/cov19-hm/longcovid.html)
 - 東京
   - [発生状況](https://geneasyura.github.io/cov19-hm/tokyo.html)
   - [倍加時間](https://geneasyura.github.io/cov19-hm/tokyo-fit.html)
