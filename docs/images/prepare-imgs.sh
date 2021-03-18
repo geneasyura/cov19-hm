@@ -16,6 +16,10 @@ for rev in $LIST; do
     echo "wrote to $FNAME"
 done
 
+if [ "$3" != "" ] ; then
+  i=$3
+fi
+
 ffmpeg -framerate $r -start_number $i -i tmp/%04d.jpg -vcodec libx264 -pix_fmt yuv420p -r $r tmp/out.mp4
 
 rm tmp/*.jpg
