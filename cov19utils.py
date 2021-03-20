@@ -92,10 +92,18 @@ def blank2zero(code):
     """ 空文字を0に変換する """
     if len(code) == 0:
         return 0
+    if type(code) == str:
+        if code == "inf":
+            print("Warning: found inf: {}.".format(code))
+            return 0
     try:
         ret = int(code)
     except:
-        ret = float(code)
+        try:
+            ret = float(code)
+        except:
+            ret = 0
+            print("Error: Invalid number: {}.".format(code))
     return ret
 
 
