@@ -33,6 +33,13 @@ FONT_NAME = 'MS Gothic'
 # 統計開始日時
 DT_OFFSET = "2020/1/16"
 
+def get_percentage_num(x):
+    if type(x) == str and x.endswith('%'):
+        ret = float(x[:-1])
+    else:
+        ret = x * 100.0
+    return ret
+
 
 def json2nparr(keys, filename):
     """ JSON データを nparray に加工 """
