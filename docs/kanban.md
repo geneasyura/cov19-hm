@@ -11,7 +11,7 @@
 
 ## 病床逼迫状況
 
-![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/newpage_00023.jpg)
+![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/newpage_00023a.jpg)
 ![](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/newpage_00023b.jpg)
 
 ## 直近2週間動向
