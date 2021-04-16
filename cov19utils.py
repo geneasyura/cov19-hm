@@ -347,7 +347,7 @@ def show_and_save_plotly(fig, filename, js='directory', show=True, image=True, h
         jpgname = 'docs/images/{}'.format(filename)
         pio.write_image(
             fig, file=jpgname,
-            format='jpeg', engine="kaleido")
+            format='jpeg', engine="orca")
         print("wrote to {}".format(jpgname))
     if html:
         htmlname = 'docs/_includes/{}'.format(filename.replace("jpg", "html"))
