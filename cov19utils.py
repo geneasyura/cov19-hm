@@ -37,7 +37,7 @@ def get_percentage_num(x):
     if type(x) == str and x.endswith('%'):
         ret = float(x[:-1])
     else:
-        ret = x * 100.0
+        ret = x # * 100.0
     return ret
 
 
@@ -347,7 +347,7 @@ def show_and_save_plotly(fig, filename, js='directory', show=True, image=True, h
         jpgname = 'docs/images/{}'.format(filename)
         pio.write_image(
             fig, file=jpgname,
-            format='jpeg', engine="orca")
+            format='jpeg', engine="kaleido")
         print("wrote to {}".format(jpgname))
     if html:
         htmlname = 'docs/_includes/{}'.format(filename.replace("jpg", "html"))
