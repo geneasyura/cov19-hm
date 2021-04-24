@@ -101,7 +101,7 @@ def blank2zero(code):
         return 0
     if type(code) == str:
         if code == "inf":
-            print("Warning: found inf: {}.".format(code))
+            #print("Warning: found inf: {}.".format(code))
             return 0
     try:
         ret = int(code)
