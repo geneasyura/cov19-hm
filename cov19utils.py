@@ -219,6 +219,15 @@ def download_if_needed(base_url, filename, savename=None):
         urlretrieve(base_url + filename, savename)
         print("Saved as {}.".format(savename))
 
+def get_file_enc(filename):
+    default_enc = "shift-jis"
+    if os.path.exists(filename):
+        with open(filename, "rb") as f:
+            enc = chardet.detect(f.readline())
+            print("file: {} enc: {}".format(filename, enc['encoding']))
+            if enc['encoding'] is not None:
+                default_enc = enc['encoding']
+    return default_enc
 
 def get_populations():
     """ 都道府県の人口情報を取得する """
