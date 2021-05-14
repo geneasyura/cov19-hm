@@ -10,3 +10,4 @@ python nhk.py
 python np00023.py
 python pcrlr.py
 python longcovid.py
+python sapporo.py
