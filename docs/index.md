@@ -84,3 +84,4 @@
 - CC-BY: [奥村晴彦先生 シェープファイルを読む](https://oku.edu.mie-u.ac.jp/~okumura/stat/shape.html)
 - 国立感染症研究所が公開している [インフルエンザウイルス分離・検出速報](https://www.niid.go.jp/niid/ja/iasr-inf.html) のCSV(2020/12/05参照)をもとに遺伝子組換阿修羅がデータを加工。
 - 新型コロナ関連の情報提供: [NHK](https://www3.nhk.or.jp/news/special/coronavirus/data-widget/)
+- [CC-BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.ja): 北海道の市町村別地図 city_of_hokkaido.svg は[Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Labeled_administrative_map_of_Hokkaido_prefecture.svg#metadata) のデータを改変。
