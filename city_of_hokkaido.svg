@@ -789,7 +789,7 @@
          inkscape:connector-curvature="0" />
     </defs>
     <path
-       style="fill:#c0dcf7"
+       style="fill:#909090"
        d="m 9.0625,40.0625 540,0 0,460 -540,0 z"
        id="rect196" />
     <g
@@ -816,7 +816,7 @@
         <use
            xlink:href="#01100"
            id="use206"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#9c179e;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -842,7 +842,7 @@
         <use
            xlink:href="#01203"
            id="use214"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -855,7 +855,7 @@
         <use
            xlink:href="#01204"
            id="use218"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d14e72;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -881,19 +881,6 @@
         <use
            xlink:href="#01206"
            id="use226"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
-           x="0"
-           y="0"
-           width="800"
-           height="572" />
-      </a>
-      <a
-         xlink:href="http://ja.wikipedia.org/wiki/帯広市"
-         id="a228"
-         style="stroke:#666666;stroke-width:0.25;stroke-opacity:1">
-        <use
-           xlink:href="#01207"
-           id="use230"
            style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
@@ -979,19 +966,6 @@
            height="572" />
       </a>
       <a
-         xlink:href="http://ja.wikipedia.org/wiki/稚内市"
-         id="a256"
-         style="stroke:#666666;stroke-width:0.25;stroke-opacity:1">
-        <use
-           xlink:href="#01214"
-           id="use258"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
-           x="0"
-           y="0"
-           width="800"
-           height="572" />
-      </a>
-      <a
          xlink:href="http://ja.wikipedia.org/wiki/美唄市"
          id="a260"
          style="stroke:#666666;stroke-width:0.25;stroke-opacity:1">
@@ -1024,7 +998,7 @@
         <use
            xlink:href="#01217"
            id="use270"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -1102,7 +1076,7 @@
         <use
            xlink:href="#01223"
            id="use294"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d14e72;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -1115,7 +1089,7 @@
         <use
            xlink:href="#01224"
            id="use298"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -1206,7 +1180,7 @@
         <use
            xlink:href="#01231"
            id="use326"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -1232,7 +1206,7 @@
         <use
            xlink:href="#01234"
            id="use334"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -1245,7 +1219,7 @@
         <use
            xlink:href="#01235"
            id="use338"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -1271,7 +1245,7 @@
         <use
            xlink:href="#01303"
            id="use346"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -1284,7 +1258,7 @@
         <use
            xlink:href="#01304"
            id="use350"
-           style="fill:#d28c9a;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -2265,6 +2239,21 @@
            width="800"
            height="572" />
       </a>
+
+<!-- 宗谷 -->
+      <a
+         xlink:href="http://ja.wikipedia.org/wiki/稚内市"
+         id="a256"
+         style="stroke:#666666;stroke-width:0.25;stroke-opacity:1">
+        <use
+           xlink:href="#01214"
+           id="use258"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           x="0"
+           y="0"
+           width="800"
+           height="572" />
+      </a>
       <a
          xlink:href="http://ja.wikipedia.org/wiki/幌延町"
          id="a652"
@@ -2272,7 +2261,7 @@
         <use
            xlink:href="#01488"
            id="use654"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2285,7 +2274,7 @@
         <use
            xlink:href="#01511"
            id="use658"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2298,7 +2287,7 @@
         <use
            xlink:href="#01512"
            id="use662"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2311,7 +2300,7 @@
         <use
            xlink:href="#01513"
            id="use666"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2324,7 +2313,7 @@
         <use
            xlink:href="#01514"
            id="use670"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2337,7 +2326,7 @@
         <use
            xlink:href="#01516"
            id="use674"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2350,7 +2339,7 @@
         <use
            xlink:href="#01517"
            id="use678"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2363,7 +2352,7 @@
         <use
            xlink:href="#01518"
            id="use682"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2376,12 +2365,14 @@
         <use
            xlink:href="#01519"
            id="use686"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
            height="572" />
       </a>
+<!-- 宗谷 -->
+
       <a
          xlink:href="http://ja.wikipedia.org/wiki/美幌町"
          id="a688"
@@ -2746,6 +2737,21 @@
            width="800"
            height="572" />
       </a>
+
+<!-- 十勝 -->
+      <a
+         xlink:href="http://ja.wikipedia.org/wiki/帯広市"
+         id="a228"
+         style="stroke:#666666;stroke-width:0.25;stroke-opacity:1">
+        <use
+           xlink:href="#01207"
+           id="use230"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           x="0"
+           y="0"
+           width="800"
+           height="572" />
+      </a>
       <a
          xlink:href="http://ja.wikipedia.org/wiki/音更町"
          id="a808"
@@ -2753,7 +2759,7 @@
         <use
            xlink:href="#01631"
            id="use810"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2766,7 +2772,7 @@
         <use
            xlink:href="#01632"
            id="use814"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2779,7 +2785,7 @@
         <use
            xlink:href="#01633"
            id="use818"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2792,7 +2798,7 @@
         <use
            xlink:href="#01634"
            id="use822"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2805,7 +2811,7 @@
         <use
            xlink:href="#01635"
            id="use826"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2818,7 +2824,7 @@
         <use
            xlink:href="#01636"
            id="use830"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2831,7 +2837,7 @@
         <use
            xlink:href="#01637"
            id="use834"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2844,7 +2850,7 @@
         <use
            xlink:href="#01638"
            id="use838"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2857,7 +2863,7 @@
         <use
            xlink:href="#01639"
            id="use842"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2870,7 +2876,7 @@
         <use
            xlink:href="#01641"
            id="use846"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2883,7 +2889,7 @@
         <use
            xlink:href="#01642"
            id="use850"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2896,7 +2902,7 @@
         <use
            xlink:href="#01643"
            id="use854"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2909,7 +2915,7 @@
         <use
            xlink:href="#01644"
            id="use858"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2922,7 +2928,7 @@
         <use
            xlink:href="#01645"
            id="use862"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2935,7 +2941,7 @@
         <use
            xlink:href="#01646"
            id="use866"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2948,7 +2954,7 @@
         <use
            xlink:href="#01647"
            id="use870"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2961,7 +2967,7 @@
         <use
            xlink:href="#01648"
            id="use874"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -2974,12 +2980,14 @@
         <use
            xlink:href="#01649"
            id="use878"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fa9d3b;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
            height="572" />
       </a>
+<!-- 十勝 -->
+
       <a
          xlink:href="http://ja.wikipedia.org/wiki/釧路町"
          id="a880"
@@ -3091,7 +3099,7 @@
         <use
            xlink:href="#01692"
            id="use914"
-           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#bf3984;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -6733,6 +6741,89 @@
          d="m 716.30762,431 0,-4.32715 c -1e-5,-0.83398 -0.0581,-1.39111 -0.17432,-1.67139 -0.11622,-0.28026 -0.29396,-0.48534 -0.5332,-0.61523 -0.23927,-0.12988 -0.54119,-0.19482 -0.90576,-0.19482 -0.62436,0 -1.36036,0.34408 -2.20801,1.03222 0.0273,0.23699 0.041,0.54005 0.041,0.90918 l 0,4.86719 -1.20312,0 0,-4.32715 c -10e-6,-0.85676 -0.0581,-1.42073 -0.17432,-1.69189 -0.11621,-0.27116 -0.29167,-0.47054 -0.52636,-0.59815 -0.23471,-0.12759 -0.53207,-0.1914 -0.89209,-0.1914 -0.6517,0 -1.37859,0.33269 -2.18067,0.99804 l 0,5.81055 -1.20312,0 0,-7.72461 1.20312,0 0,0.92969 c 0.91601,-0.76562 1.7819,-1.14843 2.59766,-1.14844 1.05273,10e-6 1.76366,0.42156 2.13281,1.26465 0.99348,-0.84309 1.93684,-1.26464 2.83008,-1.26465 1.5996,10e-6 2.3994,0.97071 2.39941,2.91211 l 0,5.03125 z"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;font-family:Meiryo;-inkscape-font-specification:Meiryo"
          id="path5454" />
+
+<!--
+240 249 33 f0f921
+252 185 46 fcb92e
+250 157 59 fa9d3b
+209 78 114 d14e72
+191 57 132 bf3984
+156 23 158 9c179e
+116  2 167 7402a7
+13   8 135 0d0887
+-->
+
+      <text x="315" y="10" font-size="8" text-anchor="start">特措法 緊急事態宣言</text>
+      <text x="315" y="20" font-size="8" text-anchor="start">2021/5/16(日)～5/31(月)</text>
+      <rect x="315" y="26" width="78" height="9" fill="#f0f921" stroke="#f0f921" stroke-width="0" />
+      <text x="315" y="33" font-size="8" text-anchor="start">北海道特定措置区域</text>
+      <rect x="315" y="38" width="78" height="9" fill="#fcb92e" stroke="#ffff00" stroke-width="0" />
+      <text x="315" y="38" font-size="8" text-anchor="start" alignment-baseline="hanging"> 病床使用率50%以上</text>
+      <rect x="315" y="48" width="78" height="9" fill="#fa9d3b" stroke="#ff0000" stroke-width="0" />
+      <text x="315" y="48" font-size="8" text-anchor="start" alignment-baseline="hanging"> 病床使用率60%以上</text>
+      <rect x="315" y="58" width="78" height="9" fill="#d14e72" stroke="#ff0000" stroke-width="0" />
+      <text x="315" y="58" font-size="8" text-anchor="start" alignment-baseline="hanging"> 病床使用率70%以上</text>
+      <rect x="315" y="68" width="78" height="9" fill="#bf3984" stroke="#ff0000" stroke-width="0" />
+      <text x="315" y="68" font-size="8" text-anchor="start" alignment-baseline="hanging"> 病床使用率80%以上</text>
+      <rect x="315" y="78" width="78" height="9" fill="#9c179e" stroke="#ff0000" stroke-width="0" />
+      <text x="315" y="78" font-size="8" text-anchor="start" alignment-baseline="hanging"> 病床使用率90%以上</text>
+      <text x="750" y="420" font-size="8" text-anchor="start">2021/5/20 時点</text>
+      <text x="750" y="430" font-size="8" text-anchor="start">遺伝子組換え阿修羅</text>
+
+      <!-- 北海道  : 894/1809床=  49% https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html -->
+<!-- 
+札幌市  : 434/440床 = 98% https://www.stv.jp/news/stvnews/u3f86t00000b1qn0.html
+中標津町: 007/010床 = 80% https://www.nakashibetsu.jp/topics/3787/
+旭川市  : 087/119床 = 78% https://www.uhb.jp/news/single.html?id=20480
+根室市  : 007/010床 = 70% https://www.hokkaido-np.co.jp/article/543980
+十勝地方: 078/120床 > 65% https://kachimai.jp/article/index.php?no=533081
+小樽市  : 039/065床 = 60% https://www.otaru-journal.com/2021/05/post-71763/
+苫小牧市: xx9/016床 = 60% https://www.tomamin.co.jp/article/news/main/47013/
+稚内市  : 015/030床 = 50% https://news.goo.ne.jp/article/hokkaido/region/hokkaido-543971.html
+函館市  : 018/043床 = 42% https://digital.hakoshin.jp/news/national/74179
+-->
+      <!-- 江別市  : 床 =  0%  -->
+      <!-- 千歳市  : 床 =  0%  -->
+      <!-- 恵庭市  : 床 =  0%  -->
+      <!-- 北広島市: 床 =  0%  -->
+      <!-- 石狩市  : 床 =  0%  -->
+      <!-- 当別町  : 床 =  0%  -->
+      <!-- 新篠津村: 床 =  0%  -->
+      <!-- 砂川市  : 床 =  0%  -->
+      <!-- 留萌市  : 床 =  0%  -->
+      <!-- 深川市  : 床 =  0%  -->
+      <!-- 滝川市  : 床 =  0%  -->
+      <!-- 赤平市  : 床 =  0%  -->
+      <!-- 芦別市  : 床 =  0%  -->
+      <!-- 美唄市  : 床 =  0%  -->
+      <!-- 三笠市  : 床 =  0%  -->
+      <!-- 岩見沢市: 床 =  0%  -->
+      <!-- 夕張市  : 床 =  0%  -->
+      <!-- 砂川市  : 床 =  0%  -->
+      <!-- 伊達市  : 床 =  0%  -->
+      <!-- 登別市  : 床 =  0%  -->
+      <!-- 室蘭市  : 床 =  0%  -->
+      <!-- 伊達市  : 床 =  0%  -->
+      <!-- 倶知安町: 床 =  0%  -->
+      <!-- 余市町  : 床 =  0%  -->
+      <!-- 北斗市  : 床 =  0%  -->
+      <!-- 江差町  : 床 =  0%  -->
+      <!-- 八雲町  : 床 =  0%  -->
+      <!-- 名寄市  : 床 =  0%  -->
+      <!-- 士別市  : 床 =  0%  -->
+      <!-- 富良野市: 床 =  0%  -->
+      <!-- 新ひだか町: 床 =  0%  -->
+      <!-- 音更町  : 床 =  0%  -->
+      <!-- 釧路市  : 床 =  0%  -->
+      <!-- 北見市  : 床 =  0%  -->
+      <!-- 網走市  : 床 =  0%  -->
+      <!-- 紋別市  : 床 =  0%  -->
+      <!--   : 床 =  0%  -->
+      <!--   : 床 =  0%  -->
+      <!--   : 床 =  0%  -->
+      <!--   : 床 =  0%  -->
+      <!--   : 床 =  0%  -->
+      
     </g>
     <path
        style="fill:#000000"
