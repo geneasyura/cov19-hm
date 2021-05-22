@@ -842,7 +842,7 @@
         <use
            xlink:href="#01203"
            id="use214"
-           style="fill:#fa9d3b;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
+           style="fill:#d14e72;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
            x="0"
            y="0"
            width="800"
@@ -1076,7 +1076,7 @@
         <use
            xlink:href="#01223"
            id="use294"
-           style="fill:#d14e72;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -3099,7 +3099,7 @@
         <use
            xlink:href="#01692"
            id="use914"
-           style="fill:#bf3984;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#d14e72;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -6767,20 +6767,20 @@
       <text x="315" y="68" font-size="8" text-anchor="start" alignment-baseline="hanging"> 病床使用率80%以上</text>
       <rect x="315" y="78" width="78" height="9" fill="#9c179e" stroke="#ff0000" stroke-width="0" />
       <text x="315" y="78" font-size="8" text-anchor="start" alignment-baseline="hanging"> 病床使用率90%以上</text>
-      <text x="750" y="420" font-size="8" text-anchor="start">2021/5/20 時点</text>
+      <text x="750" y="420" font-size="8" text-anchor="start">2021/5/21 時点</text>
       <text x="750" y="430" font-size="8" text-anchor="start">遺伝子組換え阿修羅</text>
 
       <!-- 北海道  : 894/1809床=  49% https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html -->
 <!-- 
-札幌市  : 434/440床 = 98% https://www.stv.jp/news/stvnews/u3f86t00000b1qn0.html
-中標津町: 007/010床 = 80% https://www.nakashibetsu.jp/topics/3787/
-旭川市  : 087/119床 = 78% https://www.uhb.jp/news/single.html?id=20480
-根室市  : 007/010床 = 70% https://www.hokkaido-np.co.jp/article/543980
+札幌市  : 421/440床 = 96% https://www.stv.jp/news/stvnews/u3f86t00000b1qn0.html
+中標津町: 007/010床 = 70% https://www.nakashibetsu.jp/topics/3787/
+旭川市  : 092/119床 = 74% https://www.uhb.jp/news/single.html?id=20506
+根室市  : 007/019床 = 37% https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/shiminfukushibu/hokenka/corona_kanren/9106.html
 十勝地方: 078/120床 > 65% https://kachimai.jp/article/index.php?no=533081
-小樽市  : 039/065床 = 60% https://www.otaru-journal.com/2021/05/post-71763/
-苫小牧市: xx9/016床 = 60% https://www.tomamin.co.jp/article/news/main/47013/
+小樽市  : xxx/065床 = 70% https://www.otaru-journal.com/2021/05/post-71763/
+苫小牧市: xxx/016床 = 60% https://www.tomamin.co.jp/article/news/main/47013/
 稚内市  : 015/030床 = 50% https://news.goo.ne.jp/article/hokkaido/region/hokkaido-543971.html
-函館市  : 018/043床 = 42% https://digital.hakoshin.jp/news/national/74179
+函館市  : xxx/xxx床 = 18% https://digital.hakoshin.jp/news/national/74179
 -->
       <!-- 江別市  : 床 =  0%  -->
       <!-- 千歳市  : 床 =  0%  -->
