@@ -16,7 +16,7 @@ STV
 函館市
  https://www.city.hakodate.hokkaido.jp/docs/2020050300019/
 恵庭市
- https://www.city.eniwa.hokkaido.jp/kinkyu/corona/index.html
+ https://www.city.eniwa.hokkaido.jp/coronajyohou/corona/index.html
 釧路市
  https://www.city.kushiro.lg.jp/kenfuku/kenkou/yobou/corona/cat00000473.html
 小樽市
@@ -84,6 +84,8 @@ Sawada Toyomi
  http://www.pref.hokkaido.lg.jp/ss/ssa/koronataisakukaigi.htm
 札幌市
  https://www.city.sapporo.jp/hokenjo/f1kansen/2019n-cov_kaigi.html
+北海道警察
+ https://www.police.pref.hokkaido.lg.jp/corona/outbreak.html
 療養状況等及び入院患者受入病床数等に関する調査について
  https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html
 
