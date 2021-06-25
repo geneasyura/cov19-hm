@@ -85,18 +85,24 @@ def parse_jma_csv(filename):
     """ JMAのCSVデータを解析し、リスト型で格納する """
     weather_info = []
     ar = AirRegistance()
+    def adjust_fval(v, old):
+        if not v or v == '':
+            return float(old)
+        return float(v)
+
     with codecs.open(filename, encoding="shift-jis") as f:
         for i in range(6):
             l = f.readline() # 6行スキップ
+        prev = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         while l:
             l = f.readline().replace("\r\n", "")
             arr = l.split(',')
             if len(arr) == 13:
                 ts = datetime.strptime(arr[0], "%Y/%m/%d")
-                temp = float(arr[ 1])
-                rh = float(arr[ 4])
-                vp = float(arr[ 7])
-                ap = float(arr[10])
+                temp = adjust_fval(arr[ 1], prev[1])
+                rh = adjust_fval(arr[ 4], prev[4])
+                vp = adjust_fval(arr[ 7], prev[7])
+                ap = adjust_fval(arr[10], prev[10])
                 ah = 18.0 * ((100.0 * vp) / (8.31447 * (273.15 + temp)))
                 # ウィルス微粒子が受ける空気抵抗力を 温湿度現地気圧から計算
                 Fd = ar.calc(t=temp, P=100*ap, rh=rh)
@@ -109,6 +115,7 @@ def parse_jma_csv(filename):
                     ah,    # 容積絶対湿度 [g/㎥]
                     Fd     # ウィルス微粒子に働く空気抵抗力
                 ])
+            prev = arr
         pass
     return weather_info
 
