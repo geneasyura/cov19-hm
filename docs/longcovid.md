@@ -15,3 +15,6 @@
 
 [CSV 形式でダウンロード](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/csv/longcovid.csv)
 
+### PDF データ
+
+[PDF 形式でダウンロード](https://raw.githubusercontent.com/geneasyura/cov19-hm/master/docs/images/longcovid.pdf)
