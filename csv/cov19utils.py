@@ -329,13 +329,13 @@ def show_and_save_plotly(fig, filename, js='directory', show=True, image=True, h
     if "ipy" in sys.argv[0] and show:
         offline.iplot(fig)
     if image:
-        jpgname = 'docs/images/{}'.format(filename)
+        jpgname = '../docs/images/{}'.format(filename)
         pio.write_image(
             fig, file=jpgname,
             format='jpeg', engine="kaleido")
         print("wrote to {}".format(jpgname))
     if html:
-        htmlname = 'docs/_includes/{}'.format(filename.replace("jpg", "html"))
+        htmlname = '../docs/_includes/{}'.format(filename.replace("jpg", "html"))
         pio.write_html(
             fig, file=htmlname,
             include_plotlyjs=js, auto_play=False, full_html=False)
