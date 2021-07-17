@@ -103,6 +103,7 @@ def blank2zero(code):
         if code == "inf":
             #print("Warning: found inf: {}.".format(code))
             return 0
+    code = code.replace('"', '')
     try:
         ret = int(code)
     except:
@@ -171,12 +172,10 @@ def get_twitter():
     return tw
 
 
-def tweet_with_image(twtr, filename, msg):
+def tweet_with_image(twtr, filename, msg, force=False):
     """ tweet する """
-    if "ipy" in sys.argv[0]:
+    if "ipy" in sys.argv[0] and not force:
         return
-
-    #return
 
     #print(msg)
     with open(filename, "rb") as imagefile:
@@ -345,6 +344,11 @@ def make_japan_choropleth(filename, title, npa1d):
                     lataxis=dict(range=[26.089333, 45.531737]))
     fig.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
     show_and_save_plotly(fig, filename, js=False, show=False, image=False, html=True)
+
+
+def save_plotly_in_en(fig, filename, show=True):
+    show_and_save_plotly(fig, "en/" + filename,
+        image=True, html=False, show=show)
 
 
 def show_and_save_plotly(fig, filename, js='directory', show=True, image=True, html=True):
