@@ -129,6 +129,21 @@ def age2int(age):
         return -1
     return int(x)
 
+def split_csv_line(l):
+    ret = []
+    mems = l.split(',')
+    n = len(mems)
+    cnt = 0
+    while cnt < n:
+        ele = mems[cnt]
+        if mems[cnt].startswith('"'):
+            ele = mems[cnt].lstrip('"') + mems[cnt + 1].rstrip('"')
+            cnt += 1
+        cnt +=1 
+        ret.append(ele)
+    print(ret)
+    return ret
+
 
 def csv2array(arr, k, filename, idx, dt_os=DT_OFFSET):
     """ CSVをnp arrayに変換する """
@@ -145,7 +160,7 @@ def csv2array(arr, k, filename, idx, dt_os=DT_OFFSET):
         l = f.readline()
         while l:
             l = f.readline().replace("\r\n", "")
-            elems = l.split(',')
+            elems = split_csv_line(l)
             if len(elems) > 1 and len(elems[0]) > 0:
                 delta = dt.strptime(elems.pop(0), "%Y/%m/%d") - from_date
                 cnt = 0
