@@ -141,7 +141,7 @@ def split_csv_line(l):
             cnt += 1
         cnt +=1 
         ret.append(ele)
-    print(ret)
+    #print(ret)
     return ret
 
 
