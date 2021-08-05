@@ -1,5 +1,5 @@
 python tokyo.py
-python mhlw.py
+REM python mhlw.py
 python prefectures.py
 python hokkaido.py
 python heatmap.py
