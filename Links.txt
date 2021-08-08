@@ -105,3 +105,5 @@ Yahoo地域
  https://www.seicomart.co.jp/information/list
 日生
  https://www.nissay.co.jp/coronavirusoshirase/infomation/index.html
+札幌市中央卸売市場
+ https://www.sapporo-market.gr.jp/
