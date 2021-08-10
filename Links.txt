@@ -13,8 +13,12 @@ STV
 ■自治体
 札幌市
  https://www.city.sapporo.jp/hokenjo/f1kansen/2019n-covhassei.html
+北広島市
+ https://www.city.kitahiroshima.hokkaido.jp/
 函館市
  https://www.city.hakodate.hokkaido.jp/docs/2020050300019/
+八雲町
+ https://www.town.yakumo.lg.jp/
 恵庭市
  https://www.city.eniwa.hokkaido.jp/coronajyohou/corona/index.html
 釧路市
@@ -37,6 +41,10 @@ STV
  https://www.town.makubetsu.lg.jp/tokubetsu/
 苫小牧市
  https://www.city.tomakomai.hokkaido.jp/corona/status/
+帯広市
+ https://www.city.obihiro.hokkaido.jp/covid19/1006986/index.html
+網走市
+ https://www.city.abashiri.hokkaido.jp/
 
 ■地方紙
 小樽ジャーナル
@@ -107,3 +115,11 @@ Yahoo地域
  https://www.nissay.co.jp/coronavirusoshirase/infomation/index.html
 札幌市中央卸売市場
  https://www.sapporo-market.gr.jp/
+函館バス
+ http://www.hakobus.co.jp/news/
+じょうてつバス
+ http://www.jotetsu.co.jp/bus/
+中央バス
+ https://www.chuo-bus.co.jp/main/info/?ope=list
+JR北海道
+ https://www.jrhokkaido.co.jp/index.html
