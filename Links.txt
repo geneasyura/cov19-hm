@@ -43,6 +43,8 @@ STV
  https://www.city.tomakomai.hokkaido.jp/corona/status/
 帯広市
  https://www.city.obihiro.hokkaido.jp/covid19/1006986/index.html
+芽室町
+ https://www.memuro.net/administration/soshiki/seisaku/covid-19/kansen_info/index.html
 網走市
  https://www.city.abashiri.hokkaido.jp/
 
@@ -123,3 +125,5 @@ Yahoo地域
  https://www.chuo-bus.co.jp/main/info/?ope=list
 JR北海道
  https://www.jrhokkaido.co.jp/index.html
+地下鉄・路面電車
+ https://www.stsp.or.jp/information/
