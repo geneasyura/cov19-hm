@@ -127,3 +127,5 @@ JR北海道
  https://www.jrhokkaido.co.jp/index.html
 地下鉄・路面電車
  https://www.stsp.or.jp/information/
+くしろバス
+ http://www.kushirobus.jp/

@@ -94,17 +94,17 @@ def get_template_fig(title, subtitles, today_str):
 # In[ ]:
 
 
-tw_body = "北海道 職域別感染者数 全期間({}～{})".format(start_date, latest_date)
-tw_body
+df = pd.read_csv("maps.csv", encoding='shift-jis', header=0)
+latest_date = df['opened'].iloc[-1].replace('/', '-')
+start_date = df['opened'].iloc[0].replace('/', '-')
+print("start:{} last:{}".format(start_date, latest_date))
 
 
 # In[ ]:
 
 
-df = pd.read_csv("maps.csv", encoding='shift-jis', header=0)
-latest_date = df['opened'].iloc[-1].replace('/', '-')
-start_date = df['opened'].iloc[0].replace('/', '-')
-print("start:{} last:{}".format(start_date, latest_date))
+tw_body = "北海道 職域別感染者数 全期間({}～{})".format(start_date, latest_date)
+tw_body
 
 
 # In[ ]:
@@ -166,7 +166,8 @@ tw = get_twitter()
 # In[ ]:
 
 
-tweet_with_image(tw, "docs/images/hokkaido-work.jpg", tw_body)
+tw_body += " https://geneasyura.github.io/cov19-hm/hokkaido-work.html "
+tweet_with_image(tw, "../docs/images/hokkaido-work.jpg", tw_body)
 
 
 # In[ ]:
