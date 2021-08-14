@@ -49,20 +49,19 @@ df = pd.read_csv('tokyo2020.csv')
 
 
 fig = go.Figure()
-fig.add_trace(go.Bar(opacity=0.6,
-    x=df['date'], y=df['cases'], name='cases',))
+fig.add_trace(go.Bar(opacity=0.6,x=df['date'], y=df['cases'], name='Olympic'))
+fig.add_trace(go.Bar(opacity=0.6,x=df['date'], y=df['para'],  name='Paralympic'))
 fig.update_layout(
-    title='Daily new confirmed COVID-19 positive cases in Tokyo2020',
-    template='plotly_dark', xaxis_title='date',
-    yaxis_title='cases',
+    title='Daily new confirmed COVID-19 positive cases in Tokyo-2020',
+    template='plotly_dark', xaxis_title='date', yaxis_title='new cases',
 )
 fig.update_layout(
     width=800, height=600,
     xaxis=dict(title='date', type='date',
-               #dtick=75600000.0, 
-               tickformat="%_m/%-d",
+               dtick=75600000.0, tickformat="%_m/%-d",
               ),
     margin={"r":20,"t":80,"l":20,"b":80},
+    barmode='stack'
 )
 show_and_save_plotly(
     fig, "tokyo2020.jpg", js=False, show=True, image=True, html=False)
