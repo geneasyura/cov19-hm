@@ -51,6 +51,7 @@ df = pd.read_csv('tokyo2020.csv')
 fig = go.Figure()
 fig.add_trace(go.Bar(opacity=0.6,x=df['date'], y=df['cases'], name='Olympic'))
 fig.add_trace(go.Bar(opacity=0.6,x=df['date'], y=df['para'],  name='Paralympic'))
+fig.add_trace(go.Bar(opacity=0.6,x=df['date'], y=df['home14day'], name='within 14 days'))
 fig.update_layout(
     title='Daily new confirmed COVID-19 positive cases in Tokyo-2020',
     template='plotly_dark', xaxis_title='date', yaxis_title='new cases',
@@ -58,11 +59,16 @@ fig.update_layout(
 fig.update_layout(
     width=800, height=600,
     xaxis=dict(title='date', type='date',
-               dtick=75600000.0, tickformat="%_m/%-d",
+               tickformat="%_m/%-d",
               ),
     margin={"r":20,"t":80,"l":20,"b":80},
     barmode='stack'
 )
+antn = "within 14 days = 帰国後14日以内(positive in home country within 14 days of return)"
+fig.add_annotation(
+    xref="x domain", yref="y domain", showarrow=False,
+    x=0.03, y=0.98, font={"color": "green"}, align='left',
+    text=antn)
 show_and_save_plotly(
     fig, "tokyo2020.jpg", js=False, show=True, image=True, html=False)
 
