@@ -842,7 +842,7 @@
         <use
            xlink:href="#01203"
            id="use214"
-           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:2;stroke-opacity:0.9"
            x="0"
            y="0"
            width="800"
@@ -855,7 +855,20 @@
         <use
            xlink:href="#01204"
            id="use218"
-           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:2;stroke-opacity:0.9"
+           x="0"
+           y="0"
+           width="800"
+           height="572" />
+      </a>
+      <a
+         xlink:href="http://ja.wikipedia.org/wiki/千歳市"
+         id="a296"
+         style="stroke:#666666;stroke-width:0.25;stroke-opacity:1">
+        <use
+           xlink:href="#01224"
+           id="use298"
+           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:2;stroke-opacity:0.9"
            x="0"
            y="0"
            width="800"
@@ -1076,20 +1089,7 @@
         <use
            xlink:href="#01223"
            id="use294"
-           style="fill:#d14e72;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
-           x="0"
-           y="0"
-           width="800"
-           height="572" />
-      </a>
-      <a
-         xlink:href="http://ja.wikipedia.org/wiki/千歳市"
-         id="a296"
-         style="stroke:#666666;stroke-width:0.25;stroke-opacity:1">
-        <use
-           xlink:href="#01224"
-           id="use298"
-           style="fill:#d2ccaa;stroke:#f0f921;stroke-width:1;stroke-opacity:0.8"
+           style="fill:#d2ccaa;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -3099,7 +3099,7 @@
         <use
            xlink:href="#01692"
            id="use914"
-           style="fill:#d14e72;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
+           style="fill:#fcb92e;stroke:#666666;stroke-width:0.25;stroke-opacity:1"
            x="0"
            y="0"
            width="800"
@@ -6753,22 +6753,29 @@
 13   8 135 0d0887
 -->
 
-      <text x="315" y="10" font-size="8" text-anchor="start">特措法 緊急事態宣言</text>
-      <text x="315" y="20" font-size="8" text-anchor="start">2021/8/27(金)～9/12(日)</text>
-      <rect x="315" y="26" width="88" height="9" fill="#f0f921" stroke="#f0f921" stroke-width="0" />
-      <text x="315" y="33" font-size="8" text-anchor="start">北海道特定措置区域</text>
-      <rect x="315" y="38" width="88" height="9" fill="#fcb92e" stroke="#ffff00" stroke-width="0" />
-      <text x="315" y="38" font-size="8" text-anchor="start" alignment-baseline="hanging"> 即応病床使用率50%以上</text>
-      <rect x="315" y="48" width="88" height="9" fill="#fa9d3b" stroke="#ff0000" stroke-width="0" />
-      <text x="315" y="48" font-size="8" text-anchor="start" alignment-baseline="hanging"> 即応病床使用率60%以上</text>
-      <rect x="315" y="58" width="88" height="9" fill="#d14e72" stroke="#ff0000" stroke-width="0" />
-      <text x="315" y="58" font-size="8" text-anchor="start" alignment-baseline="hanging"> 即応病床使用率70%以上</text>
-      <rect x="315" y="68" width="88" height="9" fill="#bf3984" stroke="#ff0000" stroke-width="0" />
-      <text x="315" y="68" font-size="8" text-anchor="start" alignment-baseline="hanging"> 即応病床使用率80%以上</text>
-      <rect x="315" y="78" width="88" height="9" fill="#9c179e" stroke="#ff0000" stroke-width="0" />
-      <text x="315" y="78" font-size="8" text-anchor="start" alignment-baseline="hanging"> 即応病床使用率90%以上</text>
-      <text x="750" y="420" font-size="8" text-anchor="start">2021/5/23 時点</text>
-      <text x="750" y="430" font-size="8" text-anchor="start">遺伝子組換え阿修羅</text>
+      <text font-family="ipaexg" x="315" y="10" font-size="8" text-anchor="start">特措法 緊急事態宣言</text>
+      <text font-family="ipaexg" x="315" y="20" font-size="8" text-anchor="start">2021/8/27(金)～9/12(日)</text>
+
+      <rect x="315" y="26" width="90" height="9" fill="#f0f921" stroke="#f0f921" stroke-width="0" />
+      <text font-family="ipaexg" x="315" y="33" font-size="8" text-anchor="start">北海道特定措置区域</text>
+
+      <rect x="315" y="38" width="90" height="9" fill="#fcb92e" stroke="#ffff00" stroke-width="0" />
+      <text font-family="ipaexg" x="315" y="45" font-size="8" text-anchor="start" > 即応病床使用率50%以上</text>
+
+      <rect x="315" y="48" width="90" height="9" fill="#fa9d3b" stroke="#ff0000" stroke-width="0" />
+      <text font-family="ipaexg" x="315" y="55" font-size="8" text-anchor="start" > 即応病床使用率60%以上</text>
+
+      <rect x="315" y="58" width="90" height="9" fill="#d14e72" stroke="#ff0000" stroke-width="0" />
+      <text font-family="ipaexg" x="315" y="65" font-size="8" text-anchor="start" > 即応病床使用率70%以上</text>
+
+      <rect x="315" y="68" width="90" height="9" fill="#bf3984" stroke="#ff0000" stroke-width="0" />
+      <text font-family="ipaexg" x="315" y="75" font-size="8" text-anchor="start" > 即応病床使用率80%以上</text>
+
+      <rect x="315" y="78" width="90" height="9" fill="#9c179e" stroke="#ff0000" stroke-width="0" />
+      <text font-family="ipaexg" x="315" y="85" font-size="8" text-anchor="start" > 即応病床使用率90%以上</text>
+
+      <text font-family="ipaexg" x="750" y="420" font-size="8" text-anchor="start">2021/8/27 時点</text>
+      <text font-family="ipaexg" x="750" y="430" font-size="8" text-anchor="start">遺伝子組換え阿修羅</text>
 
       <!-- 北海道  :1012/1809床= 55% https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html -->
 <!-- 

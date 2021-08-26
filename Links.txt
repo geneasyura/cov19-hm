@@ -47,6 +47,10 @@ STV
  https://www.memuro.net/administration/soshiki/seisaku/covid-19/kansen_info/index.html
 網走市
  https://www.city.abashiri.hokkaido.jp/
+長沼町
+ https://www.maoi-net.jp/
+知内町
+ http://www.town.shiriuchi.hokkaido.jp/chosei/johokokai/coronavirus.html
 
 ■地方紙
 小樽ジャーナル
@@ -92,6 +96,8 @@ ehako
  https://twitter.com/EbetsuNopporo
 Sawada Toyomi
  https://twitter.com/qzv00507
+中標津町
+ https://twitter.com/nakashibetsu_t
 
 ■国・道
 北海道庁 報道発表資料
