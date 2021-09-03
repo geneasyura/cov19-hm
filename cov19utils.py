@@ -33,12 +33,6 @@ FONT_NAME = 'MS Gothic'
 # 統計開始日時
 DT_OFFSET = "2020/1/16"
 
-def get_percentage_num(x):
-    if type(x) == str and x.endswith('%'):
-        ret = float(x[:-1])
-    else:
-        ret = x # * 100.0
-    return ret
 
 
 def json2nparr(keys, filename):
@@ -198,7 +192,9 @@ def tweet_with_image(twtr, filename, msg, force=False):
         params = {"media[]": imagedata, "status": msg + " #COVID19"}
         req = twtr.statuses.update_with_media(**params)
         print(req['created_at'])
-    print("Tweeted.")
+    parent_tweet_id = req['id']
+    print("Tweeted:{}.".format(parent_tweet_id))
+    return parent_tweet_id
 
 def get_gpr_predict(x, y, x_pred, rbf=80, c=10, w=200):
     """ ガウス過程回帰の予測系列を取得する """

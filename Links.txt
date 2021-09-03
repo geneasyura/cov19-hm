@@ -13,6 +13,8 @@ STV
 ■自治体
 札幌市
  https://www.city.sapporo.jp/hokenjo/f1kansen/2019n-covhassei.html
+ https://www.city.sapporo.jp/new/index.html
+ https://www.city.sapporo.jp/somu/koho/hodo/index.html
 北広島市
  https://www.city.kitahiroshima.hokkaido.jp/
 函館市
@@ -51,6 +53,8 @@ STV
  https://www.maoi-net.jp/
 知内町
  http://www.town.shiriuchi.hokkaido.jp/chosei/johokokai/coronavirus.html
+七飯町
+ https://www.town.nanae.hokkaido.jp/education/category/478.html
 
 ■地方紙
 小樽ジャーナル
