@@ -20,6 +20,7 @@ import plotly.tools as tls
 import plotly.graph_objects as go
 import plotly.io as pio
 import plotly.offline as offline
+import requests
 from scipy.optimize import curve_fit
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import WhiteKernel, ExpSineSquared, RBF, ConstantKernel
@@ -27,6 +28,8 @@ import sys
 from twitter import Twitter, OAuth
 from urllib.request import urlretrieve
 import yaml
+import urllib3
+urllib3.disable_warnings()
 
 # フォント名
 FONT_NAME = 'MS Gothic'
@@ -226,7 +229,11 @@ def download_if_needed(base_url, filename, savename=None):
         savename = filename
     if not os.path.exists(savename):
         print("Downloading {} ...".format(filename))
-        urlretrieve(base_url + filename, savename)
+        #urlretrieve(base_url + filename, savename)
+        r = requests.get(base_url + filename, verify=False)
+        f = open(savename, "wb")
+        f.write(r.content)
+        f.close()
         print("Saved as {}.".format(savename))
 
 def get_file_enc(filename):

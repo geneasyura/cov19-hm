@@ -70,13 +70,13 @@ ehako
 日高報知新聞
  http://www.hokkaido-nl.jp/member/6
 十勝毎日新聞
- https://kachimai.jp/
+ https://kachimai.jp/article/headline.php
  http://www.hokkaido-nl.jp/member/2
 苫小牧民報
  https://www.tomamin.co.jp/
  http://www.hokkaido-nl.jp/member/4
 室蘭民報
- https://www.muromin.jp/
+ https://www.muromin.jp/news-list.php
  http://www.hokkaido-nl.jp/member/10
 名寄新聞
  http://www.hokkaido-nl.jp/member/9
